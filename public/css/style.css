@@ -1,0 +1,6144 @@
+html {
+  font-size: 62.5% !important;
+}
+
+@font-face {
+  font-family: NeueHaasGroteskRegular;
+  src: url("../font/NeueHaasGroteskRegular.ttf");
+}
+body {
+  background-color: #d8d8d8;
+  height: 100vh;
+  max-width: 1920px;
+  margin: auto;
+  font-family: NeueHaasGroteskRegular;
+}
+
+.navbar.navbar-light {
+  padding: 0 3.5rem;
+  height: 11.7rem;
+}
+.navbar.navbar-light .logo {
+  width: 13.2rem;
+  height: 3.4rem;
+}
+.navbar.navbar-light .form-inline {
+  background-color: #ffffff;
+  border-radius: 5rem;
+  font-size: 1.8rem;
+  width: 26rem;
+  height: 5.5rem;
+  border: none;
+  line-height: 5.5rem;
+}
+.navbar.navbar-light .form-inline .nav-login {
+  margin: 0 auto;
+}
+.navbar.navbar-light .form-inline .nav-login .btn {
+  font-size: 1.8rem;
+  color: #000000;
+}
+.navbar.navbar-light .nav__user-icon {
+  align-items: 11.7rem;
+  position: relative;
+}
+.navbar.navbar-light .nav__user-icon .user-icon {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+#click-user:checked ~ .user__information {
+  display: block;
+}
+
+.content__sns-registration {
+  background-color: #ffffff;
+  border-radius: 2.8rem;
+  position: relative;
+  width: 58rem;
+  height: 50.8rem;
+  margin: auto;
+  margin-top: calc(28.7rem - 11.7rem);
+  text-align: center;
+}
+.content__sns-registration .fa-times {
+  color: #000000;
+  position: absolute;
+  font-size: 2.5rem;
+  right: 6%;
+  top: 6%;
+}
+.content__sns-registration .content__login-brand {
+  padding-top: 4.7rem;
+}
+.content__sns-registration .btn-signup {
+  background-color: #21124a;
+  margin-top: 4rem;
+  width: 31.5rem;
+  height: 5.5rem;
+  border-radius: 0.8rem;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+}
+.content__sns-registration .btn-login {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000;
+  margin-top: 1rem;
+  width: 31.5rem;
+  height: 5.5rem;
+  border-radius: 0.8rem;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+}
+.content__sns-registration .content__login-or {
+  padding-top: 4.5rem;
+  position: relative;
+  font-size: 1.4rem;
+}
+.content__sns-registration .content__login-or::before {
+  position: absolute;
+  content: "";
+  border: 0.1rem solid #707070;
+  border: 0.1rem solid #707070;
+  width: 17rem;
+  left: 8.5rem;
+  top: 5.2rem;
+}
+.content__sns-registration .content__login-or::after {
+  position: absolute;
+  content: "";
+  border: 0.1rem solid #707070;
+  width: 17rem;
+  right: 8.5rem;
+  top: 5.2rem;
+}
+.content__sns-registration .content__login-description {
+  padding-top: 4rem;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  color: #000000;
+}
+.content__sns-registration .content__login-icon {
+  padding-top: 4rem;
+  padding-bottom: 28.5rem;
+}
+.content__sns-registration .content__login-icon .icon {
+  width: 4rem;
+  height: 4rem;
+  margin: 0.5rem;
+}
+
+.content__signup {
+  background-color: #ffffff;
+  border-radius: 2.8rem;
+  position: relative;
+  width: 46.7rem;
+  height: 83rem;
+  margin: auto;
+  margin-top: calc(17.7rem - 11.7rem);
+}
+.content__signup .fa-times {
+  color: #000000;
+  position: absolute;
+  font-size: 2.5rem;
+  right: 3.5rem;
+  top: 2.5rem;
+}
+.content__signup .content__signup-main {
+  padding: 0px 7.5rem;
+}
+.content__signup .content__signup-main .content__signup-title {
+  padding-top: 5.5rem;
+  font-size: 2.1rem;
+  padding-bottom: 3.3rem;
+  text-align: center;
+}
+.content__signup .content__signup-main .signup-input {
+  background-color: #f7f6f8;
+  width: 31.5rem;
+  height: 5.5rem;
+  border: none;
+  border-radius: 1rem;
+  color: #83828a;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 1rem;
+  letter-spacing: 1px;
+}
+.content__signup .content__signup-main .content__signup-gender {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3;
+}
+.content__signup .content__signup-main .content__signup-gender .input-women {
+  width: 15rem;
+  height: 5.4rem;
+  background-color: #f7f6f8;
+  color: #83828a;
+  border-radius: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+.content__signup .content__signup-main .content__signup-gender .input-women label {
+  margin: auto;
+}
+.content__signup .content__signup-main .content__signup-gender #women:checked ~ .input-women {
+  background-color: #21124a;
+  color: #ffffff;
+}
+.content__signup .content__signup-main .content__signup-gender .input-men {
+  width: 15rem;
+  height: 5.4rem;
+  background-color: #f7f6f8;
+  border-radius: 0.8rem;
+  color: #83828a;
+  display: flex;
+  align-items: center;
+}
+.content__signup .content__signup-main .content__signup-gender .input-men label {
+  margin: auto;
+}
+.content__signup .content__signup-main .content__signup-gender #men:checked ~ .input-men {
+  background-color: #21124a;
+  color: #ffffff;
+}
+.content__signup .content__signup-main .content__signup-validate-error {
+  color: #83828a;
+  text-align: left;
+  padding-top: 2rem;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  line-height: 14px;
+}
+.content__signup .content__signup-main .content__signup-validate-error li {
+  list-style: none;
+}
+.content__signup .content__signup-main .email-signup {
+  padding-top: 2.4rem;
+}
+.content__signup .content__signup-main .email-signup .email {
+  color: #000000;
+  font-size: 1rem;
+  padding-left: 1rem;
+  letter-spacing: 1px;
+}
+.content__signup .content__signup-main .password-signup {
+  padding-top: 2.4rem;
+}
+.content__signup .content__signup-main .password-signup .password {
+  color: #000000;
+  font-size: 1rem;
+  padding-left: 1rem;
+  letter-spacing: 1px;
+}
+.content__signup .content__signup-main .password-signup-confirmation {
+  padding-top: 2rem;
+}
+.content__signup .content__signup-main .password-signup-confirmation .password-confirmation {
+  color: #000000;
+  font-size: 1rem;
+  padding-left: 1rem;
+  letter-spacing: 1px;
+}
+.content__signup .content__signup-main .form-check {
+  padding-top: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+.content__signup .content__signup-main .form-check .round {
+  position: relative;
+}
+.content__signup .content__signup-main .form-check .round label {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 2.5rem;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 2.5rem;
+}
+.content__signup .content__signup-main .form-check .round label::after {
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+  content: "";
+  height: 0.6rem;
+  left: 0.5rem;
+  opacity: 0;
+  position: absolute;
+  top: 0.7rem;
+  transform: rotate(-45deg);
+  width: 1.2rem;
+}
+.content__signup .content__signup-main .form-check .round input[type=checkbox] {
+  visibility: hidden;
+}
+.content__signup .content__signup-main .form-check .round input[type=checkbox]:checked + label {
+  background-color: #66bb6a;
+  border-color: #66bb6a;
+}
+.content__signup .content__signup-main .form-check .round input[type=checkbox]:checked + label:after {
+  opacity: 1;
+}
+.content__signup .content__signup-main .form-check .check-title {
+  font-size: 1.4rem;
+  padding-left: 2rem;
+  letter-spacing: 1px;
+  padding-top: 0.5rem;
+}
+.content__signup .content__signup-main .form-check .check-title span {
+  border-bottom: 1px solid #000000;
+}
+.content__signup .content__signup-main .subscript-btn-next {
+  text-align: center;
+  padding-bottom: 17.6rem;
+}
+.content__signup .content__signup-main .subscript-btn-next .btn-subscription-next {
+  background-color: #000000;
+  color: #fff;
+  width: 30.5rem;
+  border-radius: 50px;
+  height: 5.4rem;
+  font-size: 1.6rem;
+  margin-top: 4rem;
+}
+
+.content__send-email {
+  background-color: #ffffff;
+  border-radius: 3rem;
+  position: relative;
+  width: 46.7rem;
+  height: 27.3rem;
+  margin: auto;
+  margin-top: calc(40.4rem - 11.7rem);
+  padding-bottom: 20rem;
+}
+.content__send-email .fa-times {
+  color: #000000;
+  position: absolute;
+  font-size: 2.5rem;
+  right: 7%;
+  top: 7%;
+}
+.content__send-email .send__email {
+  text-align: center;
+}
+.content__send-email .send__email .send__email-title {
+  padding-top: 9rem;
+  font-size: 2rem;
+  color: #000000;
+  letter-spacing: 1px;
+}
+.content__send-email .send__email .send__email-content {
+  padding: 4rem 8rem;
+  font-size: 1.2rem;
+  color: #000000;
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+}
+
+.content__registration-completed {
+  background-color: #ffffff;
+  border-radius: 3rem;
+  position: relative;
+  width: 46.7rem;
+  height: 27.3rem;
+  margin: auto;
+  margin-top: calc(40.4rem - 11.7rem);
+}
+.content__registration-completed .fa-times {
+  color: #000000;
+  position: absolute;
+  font-size: 2.5rem;
+  right: 7%;
+  top: 7%;
+}
+.content__registration-completed .registration__completed {
+  text-align: center;
+  letter-spacing: 1px;
+}
+.content__registration-completed .registration__completed .registration__completed-title {
+  padding-top: 9rem;
+  font-size: 2rem;
+  color: #000000;
+}
+.content__registration-completed .registration__completed .subscript-btn-subscription {
+  text-align: center;
+}
+.content__registration-completed .registration__completed .subscript-btn-subscription .btn-subscription {
+  background-color: #000;
+  color: #fff;
+  width: 30.5rem;
+  border-radius: 50rem;
+  height: 5.5rem;
+  font-size: 1.6rem;
+  margin-top: 5rem;
+  letter-spacing: 1px;
+}
+
+.content__login {
+  background-color: #ffffff;
+  border-radius: 3rem;
+  position: relative;
+  width: 58.3rem;
+  height: 48.3rem;
+  margin: auto;
+  margin-top: calc(28.7rem - 11.7rem);
+}
+.content__login .fa-times {
+  color: #000000;
+  position: absolute;
+  font-size: 2.5rem;
+  right: 7%;
+  top: 7%;
+}
+.content__login .login-title {
+  padding-top: 7rem;
+  font-size: 2.1rem;
+  color: #000000;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.content__login .form-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content__login .form-login .input-email {
+  margin-top: 4rem;
+  width: 31.5rem;
+  height: 5.5rem;
+  border-radius: 0.8rem;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  padding-left: 3rem;
+  color: #000000;
+}
+.content__login .form-login .input-password {
+  margin-top: 1rem;
+  width: 31.5rem;
+  height: 5.5rem;
+  border-radius: 0.8rem;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  padding-left: 3rem;
+  color: #000000;
+}
+.content__login .form-login .forgot-password {
+  font-size: 1rem;
+  color: #000000;
+  letter-spacing: 1px;
+  padding-top: 2rem;
+}
+.content__login .form-login .forgot-password a {
+  text-decoration: none;
+}
+.content__login .form-login .forgot-password a span {
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #1d1b1b;
+  color: #000000;
+  text-decoration: none;
+}
+.content__login .subscript-btn-next {
+  text-align: center;
+  padding-bottom: 20rem;
+}
+.content__login .subscript-btn-next .btn-subscription-next {
+  background-color: #000;
+  color: #fff;
+  width: 30.5rem;
+  border-radius: 50px;
+  height: 5.4rem;
+  font-size: 1.6rem;
+  margin-top: 6rem;
+}
+
+.content__reset-password {
+  background-color: #ffffff;
+  border-radius: 3rem;
+  position: relative;
+  width: 58.3rem;
+  height: 37rem;
+  margin: auto;
+  margin-top: calc(35.6rem - 11.7rem);
+}
+.content__reset-password .fa-times {
+  color: #000000;
+  position: absolute;
+  font-size: 2.5rem;
+  right: 7%;
+  top: 7%;
+}
+.content__reset-password .reset__password {
+  text-align: center;
+}
+.content__reset-password .reset__password .reset__password-title {
+  padding-top: 7rem;
+  font-size: 2.1rem;
+  color: #000000;
+  letter-spacing: 1px;
+}
+.content__reset-password .reset__password .form-reset {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.content__reset-password .reset__password .form-reset .input-email {
+  margin-top: 4rem;
+  width: 31.5rem;
+  height: 5.5rem;
+  border-radius: 0.8rem;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  padding-left: 3rem;
+}
+.content__reset-password .reset__password .subscript-btn-next {
+  text-align: center;
+  padding-bottom: 20rem;
+}
+.content__reset-password .reset__password .subscript-btn-next .btn-subscription-next {
+  background-color: #000;
+  color: #fff;
+  width: 30.5rem;
+  border-radius: 50px;
+  height: 5.4rem;
+  font-size: 1.6rem;
+  margin-top: 6rem;
+}
+
+.user__information {
+  z-index: 1;
+  top: 11.8rem;
+  display: none;
+  right: 2rem;
+  width: 31.4rem;
+  height: 27.8rem;
+  background-color: #ffffff;
+  border-radius: 1.3rem;
+  position: absolute;
+}
+.user__information::before {
+  content: "";
+  position: absolute;
+  border-left: 2.3rem solid transparent;
+  border-right: 2.3rem solid transparent;
+  border-bottom: 3rem solid #ffffff;
+  top: -2.2rem;
+  right: 1.5rem;
+}
+.user__information .user__information-list {
+  padding: 2.4rem 1.2rem;
+  font-size: 1.8rem;
+}
+.user__information .user__information-list .information {
+  display: flex;
+  padding: 1rem 0;
+  letter-spacing: 1px;
+}
+.user__information .user__information-list .information a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.user__information .user__information-list .information img {
+  padding-right: 2.5rem;
+  padding-left: 3.6rem;
+}
+.user__information .user__information-list .information span {
+  color: #000000;
+}
+
+.content__account {
+  min-height: calc(100vh - 11.7rem);
+  background-color: #efefef;
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10rem;
+}
+.content__account .account-title {
+  font-size: 3.1rem;
+  padding-top: 11rem;
+  color: #000000;
+  letter-spacing: 2px;
+}
+.content__account a {
+  color: #000000;
+  text-decoration: none;
+}
+.content__account .account {
+  margin-top: 6.4rem;
+  font-size: 1.9rem;
+  flex-direction: column;
+  line-height: 8rem;
+  width: 84.3rem;
+  position: relative;
+  color: #000000;
+}
+.content__account .account .email {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.content__account .account .email .btn-email {
+  text-align: left;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  width: 100%;
+  border-radius: 1.5rem 1.5rem 0 0;
+  border: none;
+  padding-left: 4.3rem;
+  font-size: 2.4rem;
+}
+.content__account .account .email .btn-email img {
+  display: block;
+  margin-right: 5rem;
+}
+.content__account .account .email .btn-email .fa-angle-right {
+  margin-left: auto;
+  padding: 0 5rem;
+  color: #a2a2a2;
+  font-size: 3rem;
+}
+.content__account .account .email::before {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid #e3e3e3;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: calc(100% - 43px);
+  margin: auto;
+}
+.content__account .account .profile {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.content__account .account .profile .btn-profile {
+  text-align: left;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border: none;
+  width: 100%;
+  padding-left: 4.3rem;
+  font-size: 2.4rem;
+}
+.content__account .account .profile .btn-profile img {
+  display: block;
+  margin-right: 5rem;
+}
+.content__account .account .profile .btn-profile .fa-angle-right {
+  margin-left: auto;
+  padding: 0 5rem;
+  color: #a2a2a2;
+  font-size: 3rem;
+}
+.content__account .account .profile::before {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid #e3e3e3;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: calc(100% - 43px);
+  margin: auto;
+}
+.content__account .account .change-password {
+  display: flex;
+  align-items: center;
+}
+.content__account .account .change-password .btn-change-password {
+  text-align: left;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border: none;
+  width: 100%;
+  border-radius: 0 0 1.5rem 1.5rem;
+  padding-left: 4.3rem;
+  font-size: 2.4rem;
+}
+.content__account .account .change-password .btn-change-password img {
+  display: block;
+  margin-right: 5rem;
+}
+.content__account .account .change-password .btn-change-password .fa-angle-right {
+  margin-left: auto;
+  padding: 0 5rem;
+  color: #a2a2a2;
+  font-size: 3rem;
+}
+.content__account .account__btn-logout .btn-logout {
+  margin: auto;
+  margin-top: 7.6rem;
+  color: #ffffff;
+  width: 34.2rem;
+  border-radius: 2.7rem;
+  height: 5.6rem;
+  font-size: 1.5rem;
+  background-color: #ffffff;
+  letter-spacing: 1px;
+  color: #9b0e0e;
+}
+
+.content__email {
+  min-height: calc(100vh - 11.7rem);
+  background-color: #efefef;
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10rem;
+}
+.content__email .email-title {
+  font-size: 3.1rem;
+  padding-top: 11.5rem;
+  color: #000000;
+  letter-spacing: 2px;
+  letter-spacing: 1px;
+}
+.content__email .contact-name {
+  padding-top: 9.1rem;
+}
+.content__email .contact-name .name {
+  padding-left: 4.3rem;
+  font-size: 1.6rem;
+  color: #000000;
+  letter-spacing: 1px;
+}
+.content__email .contact-name .name-input {
+  margin-top: 1.3rem;
+  width: 65.5rem;
+  height: 7.1rem;
+  border-radius: 1.5rem;
+  font-size: 1.9rem;
+  padding-left: 4.3rem;
+  letter-spacing: 1px;
+}
+.content__email .profile__btn-save {
+  text-align: center;
+}
+.content__email .profile__btn-save .btn-save {
+  margin: auto;
+  margin-top: 7.6rem;
+  color: #ffffff;
+  width: 30.5rem;
+  border-radius: 2.7rem;
+  height: 5.4rem;
+  font-size: 1.6rem;
+  background-color: #000000;
+  border: 1px solid #000000;
+  letter-spacing: 1px;
+}
+
+.content__profile {
+  min-height: calc(100vh - 11.7rem);
+  background-color: #efefef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10rem;
+}
+.content__profile .profile-title {
+  font-size: 3.1rem;
+  padding-top: 11rem;
+  color: #000000;
+  letter-spacing: 2px;
+}
+.content__profile .profile-birthday {
+  width: 65.5rem;
+  height: 7.1rem;
+  border-radius: 1.5rem;
+  border: none;
+  margin-top: 7rem;
+  font-size: 1.9rem;
+  padding-left: 4.3rem;
+  letter-spacing: 1px;
+}
+.content__profile .profile-gender {
+  width: 65.5rem;
+  height: 14.2rem;
+  border-radius: 1.5rem;
+  border: none;
+  margin-top: 1.4rem;
+  font-size: 1.9rem;
+  background-color: #ffffff;
+  flex-direction: column;
+  line-height: 7.1rem;
+}
+.content__profile .profile-gender .gender-women {
+  text-align: left;
+  padding-left: 4.3rem;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.content__profile .profile-gender .gender-women input[type=radio]:checked ~ .fa-check {
+  display: block;
+}
+.content__profile .profile-gender .gender-women .fa-check {
+  display: none;
+  padding-right: 5.2rem;
+}
+.content__profile .profile-gender .gender-women::before {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid #e3e3e3;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: calc(100% - 43px);
+  margin: auto;
+}
+.content__profile .profile-gender .gender-men {
+  text-align: left;
+  padding-left: 4.3rem;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content__profile .profile-gender .gender-men input[type=radio]:checked ~ .fa-check {
+  display: block;
+}
+.content__profile .profile-gender .gender-men .fa-check {
+  padding-right: 5.2rem;
+  display: none;
+}
+.content__profile .profile__btn-save {
+  text-align: center;
+}
+.content__profile .profile__btn-save .btn-save {
+  margin: auto;
+  margin-top: 7.6rem;
+  color: #ffffff;
+  width: 30.5rem;
+  border-radius: 2.7rem;
+  height: 5.4rem;
+  font-size: 1.6rem;
+  background-color: #000000;
+  border: 1px solid #000000;
+  letter-spacing: 1px;
+}
+
+.content__change-password {
+  min-height: calc(100vh - 11.7rem);
+  background-color: #efefef;
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 16rem;
+}
+.content__change-password .change-password-title {
+  font-size: 3.1rem;
+  padding-top: 11.5rem;
+  color: #000000;
+  letter-spacing: 2px;
+  letter-spacing: 1px;
+}
+.content__change-password .current-password {
+  padding-top: 9.1rem;
+}
+.content__change-password .current-password .current-password-name {
+  padding-left: 4.3rem;
+  font-size: 1.6rem;
+  color: #000000;
+  letter-spacing: 1px;
+}
+.content__change-password .current-password .current-password-input {
+  margin-top: 1.3rem;
+  width: 65.5rem;
+  height: 7.1rem;
+  border-radius: 1.5rem;
+  font-size: 1.9rem;
+  padding-left: 4.3rem;
+  letter-spacing: 1px;
+}
+.content__change-password .password {
+  padding-top: 2.7rem;
+}
+.content__change-password .password .password-name {
+  padding-left: 4.3rem;
+  font-size: 1.6rem;
+  color: #000000;
+  letter-spacing: 1px;
+}
+.content__change-password .password .password-input {
+  margin-top: 1.3rem;
+  width: 65.5rem;
+  height: 7.1rem;
+  border-radius: 1.5rem;
+  font-size: 1.9rem;
+  padding-left: 4.3rem;
+  letter-spacing: 1px;
+}
+.content__change-password .password-confirmation {
+  padding-top: 2.7rem;
+}
+.content__change-password .password-confirmation .password-confirmation-name {
+  padding-left: 4.3rem;
+  font-size: 1.6rem;
+  color: #000000;
+  letter-spacing: 1px;
+}
+.content__change-password .password-confirmation .password-confirmation-input {
+  margin-top: 1.3rem;
+  width: 65.5rem;
+  height: 7.1rem;
+  border-radius: 1.5rem;
+  font-size: 1.9rem;
+  padding-left: 4.3rem;
+  letter-spacing: 1px;
+}
+.content__change-password .profile__btn-save {
+  text-align: center;
+}
+.content__change-password .profile__btn-save .btn-save {
+  margin: auto;
+  margin-top: 12.6rem;
+  color: #ffffff;
+  width: 30.5rem;
+  border-radius: 2.7rem;
+  height: 5.4rem;
+  font-size: 1.6rem;
+  background-color: #000000;
+  border: 1px solid #000000;
+  letter-spacing: 1px;
+}
+
+.content__subscription {
+  min-height: calc(100vh - 11.7rem);
+  background-color: #efefef;
+  padding-bottom: 11.4rem;
+}
+.content__subscription .subscription-title {
+  font-size: 3.1rem;
+  padding-top: 11rem;
+  text-align: center;
+  color: #000000;
+  letter-spacing: 2px;
+}
+.content__subscription .subscription__registered-credit {
+  margin: 0 auto;
+  margin-top: 5rem;
+  width: 63.2rem;
+  background-color: #fff;
+  height: 7rem;
+  border-radius: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content__subscription .subscription__registered-credit .registered-credit {
+  font-size: 1.9rem;
+  padding-left: 5.5rem;
+  letter-spacing: 1px;
+}
+.content__subscription .subscription__registered-credit .card-number {
+  font-size: 1.9rem;
+  letter-spacing: 2px;
+  color: #000000;
+}
+.content__subscription .subscription__registered-credit .btn-register {
+  margin-right: 2.9rem;
+  background-color: #000;
+  color: #fff;
+  padding: 0.7rem 2.5rem;
+  border-radius: 1.7rem;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+.content__subscription .subscription__list {
+  max-width: 134.5rem;
+  margin: 10rem auto;
+  padding: 0 2rem;
+}
+.content__subscription .subscription__list .purchase__history-title {
+  font-size: 1.6rem;
+  padding-bottom: 2rem;
+  letter-spacing: 1px;
+  padding-left: 2rem;
+}
+.content__subscription .subscription__list .subscription__list-table {
+  background-color: #fff;
+  font-size: 1.6rem;
+  line-height: 7rem;
+  overflow-x: scroll;
+  letter-spacing: 1px;
+  color: #000000;
+  padding: 0 5rem;
+  height: 41.8rem;
+}
+.content__subscription .subscription__list .subscription__list-table table {
+  width: 100%;
+  min-width: 100rem;
+  text-align: center;
+}
+.content__subscription .subscription__list .subscription__list-table table tr {
+  border-bottom: 2px solid #707070;
+}
+
+.content__setting-account {
+  min-height: calc(100vh - 11.7rem);
+  background-color: #efefef;
+  padding-bottom: 11.4rem;
+}
+.content__setting-account .subscription-title {
+  font-size: 3.1rem;
+  padding-top: 11rem;
+  text-align: center;
+  color: #000000;
+  letter-spacing: 2px;
+}
+.content__setting-account .subscription__registered-credit {
+  margin: 0 auto;
+  margin-top: 5rem;
+  width: 63.2rem;
+  background-color: #fff;
+  height: 7rem;
+  border-radius: 1.5rem;
+  display: flex;
+  align-items: center;
+  padding: 0 3rem;
+}
+.content__setting-account .subscription__registered-credit .card-number {
+  font-size: 1.9rem;
+  letter-spacing: 1x;
+  color: #000000;
+  flex: 1;
+  text-align: center;
+}
+.content__setting-account .subscription__registered-credit .btn-register {
+  background-color: #000;
+  color: #fff;
+  padding: 0.7rem 2.5rem;
+  text-align: center;
+  border-radius: 1.7rem;
+  font-size: 1.4 rem;
+  letter-spacing: 1px;
+}
+.content__setting-account .notify-pay-error {
+  margin: auto;
+  padding-top: 3.6rem;
+  width: 20.4rem;
+  text-align: center;
+  color: #c41818;
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+}
+.content__setting-account .subscription__list {
+  max-width: 134.5rem;
+  margin: 9rem auto;
+  padding: 0 2rem;
+}
+.content__setting-account .subscription__list .purchase__history-title {
+  font-size: 1.6rem;
+  padding-bottom: 2rem;
+  letter-spacing: 1px;
+  padding-left: 2rem;
+}
+.content__setting-account .subscription__list .subscription__list-table {
+  background-color: #fff;
+  font-size: 1.6rem;
+  line-height: 7rem;
+  overflow-x: scroll;
+  letter-spacing: 1px;
+  color: #000000;
+  padding: 0 5rem;
+  height: 41.8rem;
+}
+.content__setting-account .subscription__list .subscription__list-table table {
+  width: 100%;
+  min-width: 100rem;
+  text-align: center;
+}
+.content__setting-account .subscription__list .subscription__list-table table tr {
+  border-bottom: 2px solid #707070;
+}
+
+.content__register-card {
+  min-height: calc(100vh - 11.7rem);
+  background-color: #efefef;
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: 1px;
+  color: #000000;
+  padding-bottom: 19.6rem;
+}
+.content__register-card .credit__card-title {
+  font-size: 3.1rem;
+  padding-top: 11rem;
+  text-align: center;
+  color: #000000;
+  letter-spacing: 2px;
+}
+.content__register-card .credit__card .card-number {
+  padding-top: 8.1rem;
+}
+.content__register-card .credit__card .card-number .card__number-title {
+  padding-left: 1.7rem;
+  letter-spacing: 1px;
+  font-size: 1.9rem;
+}
+.content__register-card .credit__card .card-number .card__number-input {
+  margin-top: 1.3rem;
+  width: 63.2rem;
+  height: 7.1rem;
+  border-radius: 1.5rem;
+  font-size: 1.9rem;
+  padding: 0 4.3rem;
+}
+.content__register-card .credit__card .expiration {
+  padding-top: 3.4rem;
+}
+.content__register-card .credit__card .expiration .date-title {
+  padding-left: 1.7rem;
+  letter-spacing: 1px;
+  font-size: 1.9rem;
+}
+.content__register-card .credit__card .expiration .expiration__date {
+  padding-top: 1rem;
+  display: flex;
+}
+.content__register-card .credit__card .expiration .expiration__date a {
+  text-decoration: none;
+}
+.content__register-card .credit__card .expiration .expiration__date .month {
+  padding-right: 3.5rem;
+}
+.content__register-card .credit__card .expiration .expiration__date .month .select-box {
+  display: flex;
+  width: 20.7rem;
+  flex-direction: column;
+  font-size: 1.9rem;
+}
+.content__register-card .credit__card .expiration .expiration__date .month .select-box .selected {
+  background: #ffffff;
+  border-radius: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #000000;
+  position: relative;
+  order: 0;
+}
+.content__register-card .credit__card .expiration .expiration__date .month .select-box .selected::after {
+  content: "";
+  background: url("../image/dropdown.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 0.8rem;
+  width: 1.6rem;
+  right: 3rem;
+  top: 3.3rem;
+  transition: all 0.4s;
+}
+.content__register-card .credit__card .expiration .expiration__date .month .select-box .options-container {
+  background-color: #ffffff;
+  color: #000000;
+  max-height: 0;
+  width: 20.7rem;
+  opacity: 0;
+  transition: all 0.4s;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  order: 1;
+  position: absolute;
+  top: 59rem;
+  box-shadow: 1px 0px 4px 1px rgba(0, 0, 0, 0.5);
+}
+.content__register-card .credit__card .expiration .expiration__date .month .select-box .options-container.active {
+  max-height: 20rem;
+  opacity: 1;
+  overflow-y: scroll;
+  font-size: 1.4rem;
+}
+.content__register-card .credit__card .expiration .expiration__date .month .select-box .options-container.active + .selected::after {
+  transform: rotateX(180deg);
+}
+.content__register-card .credit__card .expiration .expiration__date .month .select-box .options-container::-webkit-scrollbar {
+  width: 0.8rem;
+  background: #0d141f;
+  border-radius: 0 0.8rem 0.8rem 0;
+}
+.content__register-card .credit__card .expiration .expiration__date .month .select-box .options-container::-webkit-scrollbar-thumb {
+  background: #525861;
+  border-radius: 0 0.8rem 0.8rem 0;
+}
+.content__register-card .credit__card .expiration .expiration__date .month .select-box .option,
+.content__register-card .credit__card .expiration .expiration__date .month .select-box .selected {
+  padding: 2.7rem;
+  cursor: pointer;
+  text-align: center;
+}
+.content__register-card .credit__card .expiration .expiration__date .month .select-box .option:hover {
+  background: #414b57;
+}
+.content__register-card .credit__card .expiration .expiration__date .month .select-box label {
+  cursor: pointer;
+}
+.content__register-card .credit__card .expiration .expiration__date .month .select-box .option .radio {
+  display: none;
+}
+.content__register-card .credit__card .expiration .expiration__date .year .select-box {
+  display: flex;
+  width: 20.7rem;
+  flex-direction: column;
+  font-size: 1.9rem;
+}
+.content__register-card .credit__card .expiration .expiration__date .year .select-box .selected-year {
+  background: #ffffff;
+  border-radius: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #000000;
+  position: relative;
+  order: 0;
+}
+.content__register-card .credit__card .expiration .expiration__date .year .select-box .selected-year::after {
+  content: "";
+  background: url("../image/dropdown.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 0.8rem;
+  width: 1.6rem;
+  right: 3rem;
+  top: 3.3rem;
+  transition: all 0.4s;
+}
+.content__register-card .credit__card .expiration .expiration__date .year .select-box .options-container-year {
+  background-color: #ffffff;
+  color: #000000;
+  max-height: 0;
+  width: 20.7rem;
+  opacity: 0;
+  transition: all 0.4s;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  order: 1;
+  position: absolute;
+  top: 59rem;
+  box-shadow: 1px 0px 4px 1px rgba(0, 0, 0, 0.5);
+}
+.content__register-card .credit__card .expiration .expiration__date .year .select-box .options-container-year.active {
+  max-height: 20rem;
+  opacity: 1;
+  overflow-y: scroll;
+  font-size: 1.4rem;
+}
+.content__register-card .credit__card .expiration .expiration__date .year .select-box .options-container-year.active + .selected-year::after {
+  transform: rotateX(180deg);
+}
+.content__register-card .credit__card .expiration .expiration__date .year .select-box .options-container-year::-webkit-scrollbar {
+  width: 0.8rem;
+  background: #0d141f;
+  border-radius: 0 0.8rem 0.8rem 0;
+}
+.content__register-card .credit__card .expiration .expiration__date .year .select-box .options-container-year::-webkit-scrollbar-thumb {
+  background: #525861;
+  border-radius: 0 0.8rem 0.8rem 0;
+}
+.content__register-card .credit__card .expiration .expiration__date .year .select-box .option-year,
+.content__register-card .credit__card .expiration .expiration__date .year .select-box .selected-year {
+  padding: 2.7rem;
+  cursor: pointer;
+  text-align: center;
+}
+.content__register-card .credit__card .expiration .expiration__date .year .select-box .option-year:hover {
+  background: #414b57;
+}
+.content__register-card .credit__card .expiration .expiration__date .year .select-box label {
+  cursor: pointer;
+}
+.content__register-card .credit__card .expiration .expiration__date .year .select-box .option-year .radio {
+  display: none;
+}
+.content__register-card .credit__card .security-code {
+  padding-top: 3.7rem;
+}
+.content__register-card .credit__card .security-code .code-title {
+  padding-left: 1.7rem;
+  letter-spacing: 1px;
+  font-size: 1.9rem;
+}
+.content__register-card .credit__card .security-code .code-input {
+  margin-top: 1.3rem;
+  width: 20.7rem;
+  height: 7.1rem;
+  border-radius: 1.5rem;
+  font-size: 1.9rem;
+  padding: 0 4.3rem;
+}
+.content__register-card .credit__card .credit__card-btn {
+  padding-top: 7.9rem;
+}
+.content__register-card .credit__card .credit__card-btn .card-btn {
+  display: flex;
+  justify-content: space-between;
+}
+.content__register-card .credit__card .credit__card-btn .card-btn .card-btn-cancel {
+  color: #000000;
+  width: 30.5rem;
+  border-radius: 2.7rem;
+  height: 5.4rem;
+  font-size: 1.6rem;
+  background-color: #efefef;
+  border: 1px solid #000000;
+  letter-spacing: 1px;
+  padding-top: 0;
+  line-height: 5.4rem;
+}
+.content__register-card .credit__card .credit__card-btn .card-btn .card-btn-register {
+  background-color: #000000;
+  color: #ffffff;
+  width: 30.5rem;
+  border-radius: 2.7rem;
+  height: 5.4rem;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+}
+
+.content__setting-register {
+  min-height: calc(100vh - 11.7rem);
+  background-color: #efefef;
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: 1px;
+  color: #000000;
+  padding-bottom: 15rem;
+}
+.content__setting-register .credit__card-title {
+  font-size: 3.1rem;
+  padding-top: 11rem;
+  text-align: center;
+  color: #000000;
+  letter-spacing: 1px;
+}
+.content__setting-register .credit__card {
+  display: flex;
+  max-width: 116.8rem;
+  justify-content: space-between;
+  padding-top: 8rem;
+}
+.content__setting-register .credit__card .post {
+  text-align: center;
+  padding: 2.5rem 0 3.5rem;
+  position: relative;
+  padding-right: 5rem;
+}
+.content__setting-register .credit__card .post .post-title {
+  font-size: 2.6rem;
+  color: #000000;
+  letter-spacing: 1px;
+}
+.content__setting-register .credit__card .post .post-img {
+  padding-top: 2.8rem;
+}
+.content__setting-register .credit__card .post .post-img .post-malone {
+  width: 29.8rem;
+  height: 42.3rem;
+}
+.content__setting-register .credit__card .post .post-content {
+  text-align: left;
+  font-size: 1.5rem;
+  color: #000000;
+  padding-top: 4.8rem;
+}
+.content__setting-register .credit__card .post::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  border-bottom: 0;
+  height: 66.3rem;
+  border: 0.5px solid #bcbcbc;
+}
+.content__setting-register .credit__card .form__credit-card {
+  padding: 2.5rem 0 0;
+  padding-left: 5rem;
+}
+.content__setting-register .credit__card .form__credit-card .card-number .card__number-title {
+  padding-left: 1.7rem;
+  font-size: 1.9rem;
+}
+.content__setting-register .credit__card .form__credit-card .card-number .card__number-input {
+  margin-top: 1.3rem;
+  width: 63.2rem;
+  height: 7.1rem;
+  border-radius: 1.5rem;
+  font-size: 1.9rem;
+  padding: 0 4.3rem;
+}
+.content__setting-register .credit__card .expiration {
+  padding-top: 3.4rem;
+}
+.content__setting-register .credit__card .expiration .date-title {
+  padding-left: 1.7rem;
+  font-size: 1.9rem;
+}
+.content__setting-register .credit__card .expiration .expiration__date {
+  padding-top: 1rem;
+  display: flex;
+}
+.content__setting-register .credit__card .expiration .expiration__date a {
+  text-decoration: none;
+}
+.content__setting-register .credit__card .expiration .expiration__date .month {
+  padding-right: 3.5rem;
+}
+.content__setting-register .credit__card .expiration .expiration__date .month .select-box {
+  display: flex;
+  width: 20.7rem;
+  flex-direction: column;
+  font-size: 1.9rem;
+}
+.content__setting-register .credit__card .expiration .expiration__date .month .select-box .selected {
+  background: #ffffff;
+  border-radius: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #000000;
+  position: relative;
+  order: 0;
+}
+.content__setting-register .credit__card .expiration .expiration__date .month .select-box .selected::after {
+  content: "";
+  background: url("../image/dropdown.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 0.8rem;
+  width: 1.6rem;
+  right: 3rem;
+  top: 3.3rem;
+  transition: all 0.4s;
+}
+.content__setting-register .credit__card .expiration .expiration__date .month .select-box .options-container {
+  background-color: #ffffff;
+  color: #000000;
+  max-height: 0;
+  width: 20.7rem;
+  opacity: 0;
+  transition: all 0.4s;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  order: 1;
+  position: absolute;
+  top: 66rem;
+  box-shadow: 1px 0px 4px 1px rgba(0, 0, 0, 0.5);
+}
+.content__setting-register .credit__card .expiration .expiration__date .month .select-box .options-container.active {
+  max-height: 20rem;
+  opacity: 1;
+  overflow-y: scroll;
+  font-size: 1.4rem;
+}
+.content__setting-register .credit__card .expiration .expiration__date .month .select-box .options-container.active + .selected::after {
+  transform: rotateX(180deg);
+}
+.content__setting-register .credit__card .expiration .expiration__date .month .select-box .options-container::-webkit-scrollbar {
+  width: 0.8rem;
+  background: #0d141f;
+  border-radius: 0 0.8rem 0.8rem 0;
+}
+.content__setting-register .credit__card .expiration .expiration__date .month .select-box .options-container::-webkit-scrollbar-thumb {
+  background: #525861;
+  border-radius: 0 0.8rem 0.8rem 0;
+}
+.content__setting-register .credit__card .expiration .expiration__date .month .select-box .option,
+.content__setting-register .credit__card .expiration .expiration__date .month .select-box .selected {
+  padding: 2.4rem;
+  cursor: pointer;
+  text-align: center;
+}
+.content__setting-register .credit__card .expiration .expiration__date .month .select-box .option:hover {
+  background: #414b57;
+}
+.content__setting-register .credit__card .expiration .expiration__date .month .select-box label {
+  cursor: pointer;
+}
+.content__setting-register .credit__card .expiration .expiration__date .month .select-box .option .radio {
+  display: none;
+}
+.content__setting-register .credit__card .expiration .expiration__date .year .select-box {
+  display: flex;
+  width: 20.7rem;
+  flex-direction: column;
+  font-size: 1.9rem;
+}
+.content__setting-register .credit__card .expiration .expiration__date .year .select-box .selected-year {
+  background: #ffffff;
+  border-radius: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #000000;
+  position: relative;
+  order: 0;
+}
+.content__setting-register .credit__card .expiration .expiration__date .year .select-box .selected-year::after {
+  content: "";
+  background: url("../image/dropdown.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 0.8rem;
+  width: 1.6rem;
+  right: 3rem;
+  top: 3.3rem;
+  transition: all 0.4s;
+}
+.content__setting-register .credit__card .expiration .expiration__date .year .select-box .options-container-year {
+  background-color: #ffffff;
+  color: #000000;
+  max-height: 0;
+  width: 20.7rem;
+  opacity: 0;
+  transition: all 0.4s;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  order: 1;
+  position: absolute;
+  top: 66rem;
+  box-shadow: 1px 0px 4px 1px rgba(0, 0, 0, 0.5);
+}
+.content__setting-register .credit__card .expiration .expiration__date .year .select-box .options-container-year.active {
+  max-height: 20rem;
+  opacity: 1;
+  overflow-y: scroll;
+  font-size: 1.4rem;
+}
+.content__setting-register .credit__card .expiration .expiration__date .year .select-box .options-container-year.active + .selected-year::after {
+  transform: rotateX(180deg);
+}
+.content__setting-register .credit__card .expiration .expiration__date .year .select-box .options-container-year::-webkit-scrollbar {
+  width: 0.8rem;
+  background: #0d141f;
+  border-radius: 0 0.8rem 0.8rem 0;
+}
+.content__setting-register .credit__card .expiration .expiration__date .year .select-box .options-container-year::-webkit-scrollbar-thumb {
+  background: #525861;
+  border-radius: 0 0.8rem 0.8rem 0;
+}
+.content__setting-register .credit__card .expiration .expiration__date .year .select-box .option-year,
+.content__setting-register .credit__card .expiration .expiration__date .year .select-box .selected-year {
+  padding: 2.4rem;
+  cursor: pointer;
+  text-align: center;
+}
+.content__setting-register .credit__card .expiration .expiration__date .year .select-box .option-year:hover {
+  background: #414b57;
+}
+.content__setting-register .credit__card .expiration .expiration__date .year .select-box label {
+  cursor: pointer;
+}
+.content__setting-register .credit__card .expiration .expiration__date .year .select-box .option-year .radio {
+  display: none;
+}
+.content__setting-register .credit__card .security-code {
+  padding-top: 3.7rem;
+}
+.content__setting-register .credit__card .security-code .code-title {
+  padding-left: 1.7rem;
+  font-size: 1.9rem;
+}
+.content__setting-register .credit__card .security-code .code-input {
+  margin-top: 1.3rem;
+  width: 20.7rem;
+  height: 7.1rem;
+  border-radius: 1.5rem;
+  font-size: 1.9rem;
+  padding: 0 4.3rem;
+}
+.content__setting-register .credit__card .credit__card-btn {
+  padding-top: 7.9rem;
+}
+.content__setting-register .credit__card .credit__card-btn .card-btn {
+  display: flex;
+  justify-content: space-between;
+}
+.content__setting-register .credit__card .credit__card-btn .card-btn .card-btn-cancel {
+  color: #000000;
+  max-width: 30.5rem;
+  width: 100%;
+  border-radius: 2.7rem;
+  height: 5.4rem;
+  font-size: 1.6rem;
+  background-color: #efefef;
+  border: 1px solid #000000;
+  margin-right: 2.2rem;
+  padding-top: 0;
+  line-height: 5.4rem;
+}
+.content__setting-register .credit__card .credit__card-btn .card-btn .card-btn-register {
+  background-color: #000000;
+  color: #ffffff;
+  max-width: 30.5rem;
+  border-radius: 2.7rem;
+  height: 5.4rem;
+  font-size: 1.6rem;
+  width: 100%;
+}
+
+.content__subscription-list {
+  min-height: calc(100vh - 11.7rem);
+  background-color: #efefef;
+  padding: 0 3rem;
+  padding-bottom: 8.5rem;
+}
+.content__subscription-list .subscription-title {
+  font-size: 3.1rem;
+  padding-top: 11rem;
+  text-align: center;
+  color: #000000;
+  letter-spacing: 2px;
+}
+.content__subscription-list .subscription__registered-credit {
+  margin: 0 auto;
+  margin-top: 5rem;
+  width: 76.4rem;
+  background-color: #fff;
+  height: 7rem;
+  border-radius: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content__subscription-list .subscription__registered-credit .registered-credit {
+  font-size: 1.9rem;
+  padding-left: 5.5rem;
+  letter-spacing: 1px;
+}
+.content__subscription-list .subscription__registered-credit .credit__card-number {
+  display: flex;
+}
+.content__subscription-list .subscription__registered-credit .credit__card-number .credit-card {
+  width: 2.4rem;
+  height: 1.9rem;
+  margin-left: 3.5rem;
+}
+.content__subscription-list .subscription__registered-credit .credit__card-number .card-number {
+  margin-left: 3rem;
+  font-size: 1.6rem;
+  letter-spacing: 2px;
+  color: #000000;
+}
+.content__subscription-list .subscription__registered-credit .btn-setting {
+  background-color: #000;
+  color: #fff;
+  padding: 0.7rem 2.5rem;
+  border-radius: 1.7rem;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  margin-right: 2.9rem;
+}
+.content__subscription-list .subscription__list {
+  max-width: 134.4rem;
+  margin: 10rem auto;
+  padding: 0 2rem;
+}
+.content__subscription-list .subscription__list .subscription__list-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  padding: 0 2rem;
+}
+.content__subscription-list .subscription__list .subscription__list-title a {
+  text-decoration: none;
+}
+.content__subscription-list .subscription__list .subscription__list-title .title-cancel {
+  border: 1px solid #000;
+  padding: 1rem 2rem;
+  border-radius: 5rem;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  color: #000000;
+}
+.content__subscription-list .subscription__list .subscription__list-table {
+  background-color: #fff;
+  font-size: 1.6rem;
+  line-height: 7rem;
+  overflow-x: scroll;
+  letter-spacing: 1px;
+  color: #000000;
+  padding: 0 5rem;
+  letter-spacing: 1px;
+}
+.content__subscription-list .subscription__list .subscription__list-table table {
+  width: 100%;
+  min-width: 100rem;
+}
+.content__subscription-list .subscription__list .subscription__list-table table tr td {
+  padding-left: 5rem;
+}
+.content__subscription-list .subscription__list .subscription__list-table table tr td .list-table-card {
+  display: flex;
+}
+.content__subscription-list .subscription__list .subscription__list-table table tr td .list-table-card .card-number {
+  padding-left: 3.5rem;
+}
+
+.content__change-card {
+  min-height: calc(100vh - 11.7rem);
+  background-color: #efefef;
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: 1px;
+  color: #000000;
+  padding-bottom: 13rem;
+}
+.content__change-card .credit__card-title {
+  font-size: 3.1rem;
+  padding-top: 11rem;
+  text-align: center;
+  color: #000000;
+  letter-spacing: 2px;
+}
+.content__change-card .subscription__registered-credit {
+  margin-top: 5rem;
+  width: 76.4rem;
+  border: 1px solid #000000;
+  height: 7rem;
+  border-radius: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+.content__change-card .subscription__registered-credit .registered-credit {
+  font-size: 1.9rem;
+  padding-left: 5.5rem;
+  letter-spacing: 1px;
+}
+.content__change-card .subscription__registered-credit .credit__card-number {
+  display: flex;
+}
+.content__change-card .subscription__registered-credit .credit__card-number .credit-card {
+  width: 2.4rem;
+  height: 1.9rem;
+  margin-left: 3.5rem;
+}
+.content__change-card .subscription__registered-credit .credit__card-number .card-number {
+  margin-left: 3rem;
+  font-size: 1.6rem;
+  letter-spacing: 2px;
+  color: #000000;
+}
+.content__change-card .credit__card .card-number {
+  padding-top: 6.3rem;
+  width: 76.4rem;
+}
+.content__change-card .credit__card .card-number .card__number-title {
+  padding-left: 1.7rem;
+  font-size: 1.9rem;
+}
+.content__change-card .credit__card .card-number .card__number-input {
+  margin-top: 1.3rem;
+  width: 63.2rem;
+  height: 7.1rem;
+  border-radius: 1.5rem;
+  font-size: 1.9rem;
+  padding: 0 4.3rem;
+}
+.content__change-card .credit__card .expiration {
+  padding-top: 3.4rem;
+}
+.content__change-card .credit__card .expiration .date-title {
+  padding-left: 1.7rem;
+  font-size: 1.9rem;
+}
+.content__change-card .credit__card .expiration .expiration__date {
+  padding-top: 1rem;
+  display: flex;
+}
+.content__change-card .credit__card .expiration .expiration__date a {
+  text-decoration: none;
+}
+.content__change-card .credit__card .expiration .expiration__date .month {
+  padding-right: 3.5rem;
+}
+.content__change-card .credit__card .expiration .expiration__date .month .select-box {
+  display: flex;
+  width: 20.7rem;
+  flex-direction: column;
+  font-size: 1.9rem;
+}
+.content__change-card .credit__card .expiration .expiration__date .month .select-box .selected {
+  background: #ffffff;
+  border-radius: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #000000;
+  position: relative;
+  order: 0;
+}
+.content__change-card .credit__card .expiration .expiration__date .month .select-box .selected::after {
+  content: "";
+  background: url("../image/dropdown.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 0.8rem;
+  width: 1.6rem;
+  right: 3rem;
+  top: 3.3rem;
+  transition: all 0.4s;
+}
+.content__change-card .credit__card .expiration .expiration__date .month .select-box .options-container {
+  background-color: #ffffff;
+  color: #000000;
+  max-height: 0;
+  width: 20.7rem;
+  opacity: 0;
+  transition: all 0.4s;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  order: 1;
+  position: absolute;
+  top: 69rem;
+  box-shadow: 1px 0px 4px 1px rgba(0, 0, 0, 0.5);
+}
+.content__change-card .credit__card .expiration .expiration__date .month .select-box .options-container.active {
+  max-height: 20rem;
+  opacity: 1;
+  overflow-y: scroll;
+  font-size: 1.4rem;
+}
+.content__change-card .credit__card .expiration .expiration__date .month .select-box .options-container.active + .selected::after {
+  transform: rotateX(180deg);
+}
+.content__change-card .credit__card .expiration .expiration__date .month .select-box .options-container::-webkit-scrollbar {
+  width: 0.8rem;
+  background: #0d141f;
+  border-radius: 0 0.8rem 0.8rem 0;
+}
+.content__change-card .credit__card .expiration .expiration__date .month .select-box .options-container::-webkit-scrollbar-thumb {
+  background: #525861;
+  border-radius: 0 0.8rem 0.8rem 0;
+}
+.content__change-card .credit__card .expiration .expiration__date .month .select-box .option,
+.content__change-card .credit__card .expiration .expiration__date .month .select-box .selected {
+  padding: 2.7rem;
+  cursor: pointer;
+  text-align: center;
+}
+.content__change-card .credit__card .expiration .expiration__date .month .select-box .option:hover {
+  background: #414b57;
+}
+.content__change-card .credit__card .expiration .expiration__date .month .select-box label {
+  cursor: pointer;
+}
+.content__change-card .credit__card .expiration .expiration__date .month .select-box .option .radio {
+  display: none;
+}
+.content__change-card .credit__card .expiration .expiration__date .year .select-box {
+  display: flex;
+  width: 20.7rem;
+  flex-direction: column;
+  font-size: 1.9rem;
+}
+.content__change-card .credit__card .expiration .expiration__date .year .select-box .selected-year {
+  background: #ffffff;
+  border-radius: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #000000;
+  position: relative;
+  order: 0;
+}
+.content__change-card .credit__card .expiration .expiration__date .year .select-box .selected-year::after {
+  content: "";
+  background: url("../image/dropdown.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 0.8rem;
+  width: 1.6rem;
+  right: 3rem;
+  top: 3.3rem;
+  transition: all 0.4s;
+}
+.content__change-card .credit__card .expiration .expiration__date .year .select-box .options-container-year {
+  background-color: #ffffff;
+  color: #000000;
+  max-height: 0;
+  width: 20.7rem;
+  opacity: 0;
+  transition: all 0.4s;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  order: 1;
+  position: absolute;
+  top: 69rem;
+  box-shadow: 1px 0px 4px 1px rgba(0, 0, 0, 0.5);
+}
+.content__change-card .credit__card .expiration .expiration__date .year .select-box .options-container-year.active {
+  max-height: 20rem;
+  opacity: 1;
+  overflow-y: scroll;
+  font-size: 1.4rem;
+}
+.content__change-card .credit__card .expiration .expiration__date .year .select-box .options-container-year.active + .selected-year::after {
+  transform: rotateX(180deg);
+}
+.content__change-card .credit__card .expiration .expiration__date .year .select-box .options-container-year::-webkit-scrollbar {
+  width: 0.8rem;
+  background: #0d141f;
+  border-radius: 0 0.8rem 0.8rem 0;
+}
+.content__change-card .credit__card .expiration .expiration__date .year .select-box .options-container-year::-webkit-scrollbar-thumb {
+  background: #525861;
+  border-radius: 0 0.8rem 0.8rem 0;
+}
+.content__change-card .credit__card .expiration .expiration__date .year .select-box .option-year,
+.content__change-card .credit__card .expiration .expiration__date .year .select-box .selected-year {
+  padding: 2.7rem;
+  cursor: pointer;
+  text-align: center;
+}
+.content__change-card .credit__card .expiration .expiration__date .year .select-box .option-year:hover {
+  background: #414b57;
+}
+.content__change-card .credit__card .expiration .expiration__date .year .select-box label {
+  cursor: pointer;
+}
+.content__change-card .credit__card .expiration .expiration__date .year .select-box .option-year .radio {
+  display: none;
+}
+.content__change-card .credit__card .security-code {
+  padding-top: 3.7rem;
+}
+.content__change-card .credit__card .security-code .code-title {
+  padding-left: 1.7rem;
+  font-size: 1.9rem;
+}
+.content__change-card .credit__card .security-code .code-input {
+  margin-top: 1.3rem;
+  width: 20.7rem;
+  height: 7.1rem;
+  border-radius: 1.5rem;
+  font-size: 1.9rem;
+  padding: 0 4.3rem;
+}
+.content__change-card .credit__card .credit__card-btn {
+  margin: auto;
+  padding-top: 10rem;
+  width: 63.2rem;
+}
+.content__change-card .credit__card .credit__card-btn .card-btn {
+  display: flex;
+  justify-content: space-between;
+}
+.content__change-card .credit__card .credit__card-btn .card-btn .card-btn-cancel {
+  color: #000000;
+  width: 30.5rem;
+  border-radius: 2.7rem;
+  height: 5.4rem;
+  font-size: 1.6rem;
+  background-color: #efefef;
+  border: 1px solid #000000;
+  letter-spacing: 1px;
+  padding-top: 0;
+  line-height: 5.4rem;
+}
+.content__change-card .credit__card .credit__card-btn .card-btn .card-btn-register {
+  background-color: #000000;
+  color: #ffffff;
+  width: 30.5rem;
+  border-radius: 2.7rem;
+  height: 5.4rem;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+}
+
+.content__unregister {
+  min-height: calc(100vh - 11.7rem);
+  background-color: #efefef;
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: 1px;
+  color: #000000;
+  padding-bottom: 20rem;
+}
+.content__unregister .unregister-title {
+  font-size: 3.1rem;
+  padding-top: 11rem;
+  text-align: center;
+  color: #000000;
+  letter-spacing: 1px;
+}
+.content__unregister .unregister-description {
+  text-align: center;
+  font-size: 1.9rem;
+  width: 40.8rem;
+  padding-top: 7.3rem;
+  letter-spacing: 1px;
+  color: #000000;
+}
+.content__unregister .unregister-date {
+  font-size: 1.5rem;
+  padding-top: 4.7rem;
+  color: #000000;
+  letter-spacing: 1x;
+}
+.content__unregister .credit__card-btn {
+  padding-top: 7.9rem;
+}
+.content__unregister .credit__card-btn .card-btn {
+  display: flex;
+  justify-content: space-between;
+}
+.content__unregister .credit__card-btn .card-btn .card-btn-cancel {
+  color: #000000;
+  width: 30.5rem;
+  border-radius: 2.7rem;
+  height: 5.4rem;
+  font-size: 1.6rem;
+  background-color: #efefef;
+  border: 1px solid #000000;
+  margin-right: 2rem;
+  letter-spacing: 1px;
+}
+.content__unregister .credit__card-btn .card-btn .card-btn-register {
+  background-color: #000000;
+  color: #ffffff;
+  width: 30.5rem;
+  border-radius: 2.7rem;
+  height: 5.4rem;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+}
+
+.content__unregister-finish {
+  min-height: calc(100vh - 11.7rem);
+  background-color: #efefef;
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: 1px;
+  color: #000000;
+  padding-bottom: 20rem;
+}
+.content__unregister-finish .unregister-title {
+  font-size: 3.1rem;
+  padding-top: 11rem;
+  text-align: center;
+  color: #000000;
+  letter-spacing: 2px;
+}
+.content__unregister-finish .unregister-description {
+  text-align: center;
+  font-size: 1.9rem;
+  padding-top: 7.3rem;
+  letter-spacing: 2px;
+  color: #000000;
+}
+.content__unregister-finish .top-page-btn {
+  margin-top: 6.7rem;
+  color: #000000;
+  width: 30.5rem;
+  border-radius: 2.7rem;
+  height: 5.4rem;
+  font-size: 1.6rem;
+  background-color: #efefef;
+  border: 1px solid #000000;
+  margin-right: 2rem;
+  letter-spacing: 1px;
+}
+
+.content__contact-faq {
+  min-height: calc(100vh - 11.7rem);
+  background-color: #efefef;
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: 1px;
+  color: #000000;
+  padding-bottom: 10rem;
+}
+.content__contact-faq .question-title {
+  font-size: 3.1rem;
+  padding-top: 11rem;
+  text-align: center;
+  color: #000000;
+  letter-spacing: 2px;
+}
+.content__contact-faq .contact__faq {
+  max-width: 126.5rem;
+  width: 100%;
+}
+.content__contact-faq .contact__faq .faq {
+  font-size: 1.6rem;
+  padding-top: 9.6rem;
+  padding-left: 1.7rem;
+}
+.content__contact-faq .contact__faq .question {
+  padding-top: 3.6rem;
+  display: flex;
+}
+.content__contact-faq .contact__faq .question .q {
+  font-size: 1.6rem;
+  display: inline-block;
+  margin-left: 4rem;
+  position: relative;
+  width: 4.1rem;
+  min-width: 4.1rem;
+  height: 4.1rem;
+  background-color: #bcbcbc;
+  border-radius: 50%;
+  text-align: center;
+  min-height: 4.1rem;
+  line-height: 4.1rem;
+}
+.content__contact-faq .contact__faq .question .content {
+  width: 109rem;
+  font-size: 1.6rem;
+  padding-left: 2rem;
+  letter-spacing: 1px;
+  padding-top: 1rem;
+}
+.content__contact-faq .contact__faq .answer {
+  padding-top: 3.6rem;
+  display: flex;
+}
+.content__contact-faq .contact__faq .answer .a {
+  font-size: 1.6rem;
+  display: inline-block;
+  margin-left: 4rem;
+  position: relative;
+  width: 4.1rem;
+  min-width: 4.1rem;
+  height: 4.1rem;
+  background-color: #acb9e3;
+  border-radius: 50%;
+  text-align: center;
+  min-height: 4.1rem;
+  line-height: 4.1rem;
+}
+.content__contact-faq .contact__faq .answer .content {
+  width: 109rem;
+  font-size: 1.6rem;
+  padding-left: 2rem;
+  letter-spacing: 1px;
+  padding-top: 1rem;
+}
+.content__contact-faq .contact__faq hr {
+  color: #707070;
+  margin-top: 3.3rem;
+}
+.content__contact-faq .contact-btn-sub {
+  text-align: center;
+}
+.content__contact-faq .contact-btn-sub .contact-btn {
+  margin: auto;
+  margin-top: 12rem;
+  color: #ffffff;
+  width: 30.5rem;
+  border-radius: 2.7rem;
+  height: 5.4rem;
+  font-size: 1.6rem;
+  background-color: #000000;
+  border: 1px solid #000000;
+  letter-spacing: 1px;
+}
+
+.content__contact {
+  min-height: calc(100vh - 11.7rem);
+  background-color: #efefef;
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.9rem;
+  letter-spacing: 1px;
+  color: #000000;
+  padding-bottom: 11.4rem;
+}
+.content__contact .credit__card-title {
+  font-size: 3.1rem;
+  padding-top: 11rem;
+  text-align: center;
+  color: #000000;
+  letter-spacing: 2px;
+}
+.content__contact .contact {
+  color: #000000;
+}
+.content__contact .contact .contact-name {
+  padding-top: 8.1rem;
+}
+.content__contact .contact .contact-name .name-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content__contact .contact .contact-name .name-top .name {
+  padding-left: 1.7rem;
+}
+.content__contact .contact .contact-name .name-top .mandatory {
+  padding: 1rem 2.6rem;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 0.8rem;
+  font-size: 1.4rem;
+  margin-right: 1.2rem;
+}
+.content__contact .contact .contact-name .name-input {
+  margin-top: 1.3rem;
+  width: 76.9rem;
+  height: 5.7rem;
+  border-radius: 1.5rem;
+  font-size: 1.9rem;
+  padding: 0 4.3rem;
+}
+.content__contact .contact .contact-email {
+  padding-top: 4rem;
+}
+.content__contact .contact .contact-email .email-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content__contact .contact .contact-email .email-top .email {
+  padding-left: 1.7rem;
+}
+.content__contact .contact .contact-email .email-top .mandatory {
+  padding: 1rem 2.6rem;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 0.8rem;
+  font-size: 1.4rem;
+  margin-right: 1.2rem;
+}
+.content__contact .contact .contact-email .email-input {
+  margin-top: 1.3rem;
+  width: 76.9rem;
+  height: 5.7rem;
+  border-radius: 1.5rem;
+  font-size: 1.9rem;
+  padding: 0 4.3rem;
+}
+.content__contact .contact .contact-inquiry {
+  padding-top: 4rem;
+}
+.content__contact .contact .contact-inquiry .inquiry-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content__contact .contact .contact-inquiry .inquiry-top .inquiry {
+  padding-left: 1.7rem;
+}
+.content__contact .contact .contact-inquiry .inquiry-top .mandatory {
+  padding: 1rem 2.6rem;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 0.8rem;
+  font-size: 1.4rem;
+  margin-right: 1.2rem;
+}
+.content__contact .contact .contact-inquiry .inquiry-input {
+  margin-top: 1.3rem;
+  width: 76.9rem;
+  height: 5.7rem;
+  border-radius: 1.5rem;
+  font-size: 1.9rem;
+  padding: 0 4.3rem;
+}
+.content__contact .contact .contact-content {
+  padding-top: 4rem;
+}
+.content__contact .contact .contact-content .content-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content__contact .contact .contact-content .content-top .content {
+  padding-left: 1.7rem;
+  font-size: 1.9rem;
+}
+.content__contact .contact .contact-content .content-top .mandatory {
+  padding: 1rem 2.6rem;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 0.8rem;
+  font-size: 1.4rem;
+  margin-right: 1.2rem;
+}
+.content__contact .contact .contact-content .content-input {
+  margin-top: 1.3rem;
+  border-radius: 1.5rem;
+  font-size: 1.9rem;
+  padding: 2.3rem 4.3rem;
+}
+.content__contact .contact .check-contact {
+  padding-top: 3.6rem;
+  padding-left: 3rem;
+  display: flex;
+  align-items: center;
+}
+.content__contact .contact .check-contact .round {
+  position: relative;
+}
+.content__contact .contact .check-contact .round label {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 2.5rem;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 2.5rem;
+}
+.content__contact .contact .check-contact .round label::after {
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+  content: "";
+  height: 0.6rem;
+  left: 0.5rem;
+  opacity: 0;
+  position: absolute;
+  top: 0.7rem;
+  transform: rotate(-45deg);
+  width: 1.2rem;
+}
+.content__contact .contact .check-contact .round input[type=checkbox] {
+  visibility: hidden;
+}
+.content__contact .contact .check-contact .round input[type=checkbox]:checked + label {
+  background-color: #66bb6a;
+  border-color: #66bb6a;
+}
+.content__contact .contact .check-contact .round input[type=checkbox]:checked + label:after {
+  opacity: 1;
+}
+.content__contact .contact .check-contact .check-title {
+  font-size: 1.4rem;
+  padding-left: 2rem;
+  padding-top: 0.2rem;
+}
+.content__contact .contact .check-contact .check-title span {
+  border-bottom: 1px solid #000000;
+}
+.content__contact .contact .contact-btn-sub {
+  text-align: center;
+}
+.content__contact .contact .contact-btn-sub .contact-btn {
+  margin: auto;
+  margin-top: 12rem;
+  color: #ffffff;
+  width: 30.5rem;
+  border-radius: 2.7rem;
+  height: 5.4rem;
+  font-size: 1.6rem;
+  background-color: #000000;
+  border: 1px solid #000000;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 360px) {
+  .navbar.navbar-light {
+    padding: 0 1rem;
+    height: 8rem;
+  }
+  .navbar.navbar-light .logo {
+    width: 11rem;
+    height: 7rem;
+  }
+  .navbar.navbar-light .form-inline {
+    font-size: 0.8rem;
+    width: 14rem;
+    height: 3rem;
+    min-width: 14rem;
+    line-height: 3rem;
+  }
+  .navbar.navbar-light .form-inline .nav-login .btn {
+    font-size: 1.2rem;
+  }
+  .navbar.navbar-light .nav__user-icon {
+    align-items: 11.7rem;
+  }
+  .navbar.navbar-light .nav__user-icon .user-icon {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .content__sns-registration {
+    border-radius: 2.8rem;
+    width: 30rem;
+    height: 30rem;
+    margin-top: calc(7rem);
+  }
+  .content__sns-registration .fa-times {
+    font-size: 2rem;
+  }
+  .content__sns-registration .logo {
+    width: 10rem;
+    height: 3rem;
+  }
+  .content__sns-registration .content__login-brand {
+    padding-top: 2.7rem;
+  }
+  .content__sns-registration .btn-signup {
+    margin-top: 1rem;
+    width: 21.5rem;
+    height: 3.5rem;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+  }
+  .content__sns-registration .btn-login {
+    margin-top: 1rem;
+    width: 21.5rem;
+    height: 3.5rem;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+  }
+  .content__sns-registration .content__login-or {
+    padding-top: 2rem;
+    font-size: 1.2rem;
+  }
+  .content__sns-registration .content__login-or::before {
+    width: 9rem;
+    left: 4rem;
+    top: 2.5rem;
+  }
+  .content__sns-registration .content__login-or::after {
+    width: 9rem;
+    right: 4rem;
+    top: 2.5rem;
+  }
+  .content__sns-registration .content__login-description {
+    padding-top: 2rem;
+    font-size: 1.2rem;
+  }
+  .content__sns-registration .content__login-icon {
+    padding-top: 2rem;
+    padding-bottom: 14rem;
+  }
+  .content__sns-registration .content__login-icon .icon {
+    width: 3rem;
+    height: 3rem;
+    margin: 0.5rem;
+  }
+
+  .content__signup {
+    border-radius: 2.8rem;
+    width: 30rem;
+    height: 60rem;
+    margin-top: calc(7rem);
+  }
+  .content__signup .fa-times {
+    font-size: 2rem;
+    right: 3.5rem;
+    top: 2.5rem;
+  }
+  .content__signup .content__signup-main {
+    padding: 0px 2rem;
+  }
+  .content__signup .content__signup-main .content__signup-title {
+    padding-top: 4rem;
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+  }
+  .content__signup .content__signup-main .signup-input {
+    width: 26rem;
+    height: 3.5rem;
+    font-size: 1.3rem;
+  }
+  .content__signup .content__signup-main .content__signup-gender {
+    margin-top: 1rem;
+    font-size: 1.3;
+  }
+  .content__signup .content__signup-main .content__signup-gender .input-women {
+    width: 12.5rem;
+    height: 3.5rem;
+    background-color: #f7f6f8;
+    color: #83828a;
+    border-radius: 0.8rem;
+    display: flex;
+    align-items: center;
+  }
+  .content__signup .content__signup-main .content__signup-gender .input-men {
+    width: 12.5rem;
+    height: 3.5rem;
+    background-color: #f7f6f8;
+    color: #83828a;
+    border-radius: 0.8rem;
+    display: flex;
+    align-items: center;
+  }
+  .content__signup .content__signup-main .content__signup-validate-error {
+    padding-top: 1rem;
+    font-size: 1.1rem;
+  }
+  .content__signup .content__signup-main .email-signup {
+    padding-top: 1.4rem;
+  }
+  .content__signup .content__signup-main .email-signup .email {
+    font-size: 1.2rem;
+    padding-left: 1rem;
+  }
+  .content__signup .content__signup-main .password-signup {
+    padding-top: 1.4rem;
+  }
+  .content__signup .content__signup-main .password-signup .password {
+    font-size: 1.2rem;
+    padding-left: 1rem;
+  }
+  .content__signup .content__signup-main .password-signup-confirmation {
+    padding-top: 1.4rem;
+  }
+  .content__signup .content__signup-main .password-signup-confirmation .password-confirmation {
+    font-size: 1.2rem;
+  }
+  .content__signup .content__signup-main .form-check {
+    padding-top: 1rem;
+  }
+  .content__signup .content__signup-main .form-check .round {
+    position: relative;
+  }
+  .content__signup .content__signup-main .form-check .round label {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 2rem;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 2rem;
+  }
+  .content__signup .content__signup-main .form-check .round label::after {
+    border: 2px solid #fff;
+    border-top: none;
+    border-right: none;
+    content: "";
+    height: 0.6rem;
+    left: 0.4rem;
+    opacity: 0;
+    position: absolute;
+    top: 0.5rem;
+    transform: rotate(-45deg);
+    width: 1.2rem;
+  }
+  .content__signup .content__signup-main .form-check .round input[type=checkbox] {
+    visibility: hidden;
+  }
+  .content__signup .content__signup-main .form-check .round input[type=checkbox]:checked + label {
+    background-color: #66bb6a;
+    border-color: #66bb6a;
+  }
+  .content__signup .content__signup-main .form-check .round input[type=checkbox]:checked + label:after {
+    opacity: 1;
+  }
+  .content__signup .content__signup-main .form-check .check-title {
+    font-size: 1.4rem;
+    padding-left: 1.5rem;
+    letter-spacing: 1px;
+  }
+  .content__signup .content__signup-main .form-check .check-title span {
+    border-bottom: 1px solid #000000;
+  }
+  .content__signup .content__signup-main .subscript-btn-next {
+    padding-bottom: 12rem;
+  }
+  .content__signup .content__signup-main .subscript-btn-next .btn-subscription-next {
+    width: 20rem;
+    height: 3.5rem;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+  }
+
+  .content__send-email {
+    width: 30rem;
+    height: 20rem;
+    margin-top: calc(10rem);
+  }
+  .content__send-email .fa-times {
+    font-size: 2rem;
+  }
+  .content__send-email .send__email .send__email-title {
+    font-size: 2.5rem;
+    padding-top: 4.5rem;
+  }
+  .content__send-email .send__email .send__email-content {
+    padding: 2rem 3rem;
+    font-size: 1.5rem;
+  }
+
+  .content__registration-completed {
+    width: 30rem;
+    height: 20rem;
+    margin: auto;
+    margin-top: calc(10rem);
+  }
+  .content__registration-completed .fa-times {
+    font-size: 2rem;
+  }
+  .content__registration-completed .registration__completed {
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  .content__registration-completed .registration__completed .registration__completed-title {
+    padding-top: 6rem;
+    font-size: 2rem;
+    color: #000000;
+  }
+  .content__registration-completed .registration__completed .subscript-btn-subscription .btn-subscription {
+    width: 20rem;
+    border-radius: 50rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    letter-spacing: 1px;
+  }
+
+  .content__login {
+    width: 30rem;
+    height: 30rem;
+    margin-top: calc(7rem);
+  }
+  .content__login .fa-times {
+    font-size: 2rem;
+    right: 7%;
+    top: 7%;
+  }
+  .content__login .login-title {
+    font-size: 2.5rem;
+    padding-top: 3.5rem;
+  }
+  .content__login .form-login .input-email {
+    margin-top: 2rem;
+    width: 25rem;
+    height: 3.5rem;
+  }
+  .content__login .form-login .input-password {
+    margin-top: 2rem;
+    width: 25rem;
+    height: 3.5rem;
+  }
+  .content__login .form-login .forgot-password {
+    font-size: 1.2rem;
+  }
+  .content__login .subscript-btn-next .btn-subscription-next {
+    width: 25rem;
+    border-radius: 5rem;
+    height: 3.5rem;
+    font-size: 1.6rem;
+    margin-top: 4rem;
+  }
+
+  .content__reset-password {
+    width: 30rem;
+    height: 25rem;
+    margin-top: calc(10rem);
+  }
+  .content__reset-password .fa-times {
+    font-size: 2rem;
+    right: 7%;
+    top: 7%;
+  }
+  .content__reset-password .reset__password .reset__password-title {
+    padding-top: 5rem;
+    font-size: 2.5rem;
+  }
+  .content__reset-password .reset__password .form-reset .input-email {
+    margin-top: 2rem;
+    width: 25rem;
+    height: 3.5rem;
+    padding-left: 2rem;
+  }
+  .content__reset-password .reset__password .subscript-btn-next .btn-subscription-next {
+    width: 25rem;
+    border-radius: 5rem;
+    height: 3.5rem;
+    font-size: 1.6rem;
+    margin-top: 4rem;
+  }
+
+  .user__information {
+    right: 1rem;
+    width: 30rem;
+    height: 28rem;
+    top: 8rem;
+  }
+  .user__information::before {
+    border-left: 2.3rem solid transparent;
+    border-right: 2.3rem solid transparent;
+    border-bottom: 3rem solid #ffffff;
+    top: -1.5rem;
+    right: 0;
+  }
+  .user__information .user__information-list {
+    padding: 2.4rem 1.2rem;
+    font-size: 1.8rem;
+  }
+  .user__information .user__information-list .information {
+    padding: 1rem 0;
+    letter-spacing: 1px;
+  }
+  .user__information .user__information-list .information img {
+    padding-right: 2.5rem;
+    padding-left: 3.6rem;
+  }
+
+  .content__account .account-title {
+    font-size: 2.5rem;
+  }
+  .content__account .account {
+    margin-top: 4rem;
+    font-size: 1.7rem;
+    line-height: 5rem;
+    width: 30rem;
+  }
+  .content__account .account .email .btn-email {
+    padding-left: 2.5rem;
+  }
+  .content__account .account .email .btn-email img {
+    margin-right: 3rem;
+  }
+  .content__account .account .email .btn-email span {
+    font-size: 1.7rem;
+  }
+  .content__account .account .email .btn-email .fa-angle-right {
+    padding: 0 3rem;
+    font-size: 2rem;
+  }
+  .content__account .account .profile .btn-profile {
+    padding-left: 2.5rem;
+  }
+  .content__account .account .profile .btn-profile img {
+    margin-right: 3rem;
+  }
+  .content__account .account .profile .btn-profile span {
+    font-size: 1.7rem;
+  }
+  .content__account .account .profile .btn-profile .fa-angle-right {
+    padding: 0 3rem;
+    font-size: 2rem;
+  }
+  .content__account .account .change-password .btn-change-password {
+    padding-left: 2.5rem;
+  }
+  .content__account .account .change-password .btn-change-password img {
+    margin-right: 3rem;
+  }
+  .content__account .account .change-password .btn-change-password span {
+    font-size: 1.7rem;
+  }
+  .content__account .account .change-password .btn-change-password .fa-angle-right {
+    padding: 0 3rem;
+    font-size: 2rem;
+  }
+  .content__account .account__btn-logout .btn-logout {
+    margin-top: 5rem;
+    width: 25rem;
+    height: 3.5rem;
+  }
+
+  .content__email .email-title {
+    font-size: 2.5rem;
+  }
+  .content__email .contact-name {
+    padding-top: 5rem;
+    text-align: center;
+  }
+  .content__email .contact-name .name {
+    padding-left: 0;
+  }
+  .content__email .contact-name .name-input {
+    margin-top: 1.3rem;
+    width: 30rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    padding-left: 3rem;
+  }
+  .content__email .profile__btn-save .btn-save {
+    margin-top: 5rem;
+    width: 25rem;
+    height: 3.5rem;
+  }
+
+  .content__profile .profile-title {
+    font-size: 2.5rem;
+    padding-top: 10rem;
+  }
+  .content__profile .profile-birthday {
+    width: 30rem;
+    height: 5rem;
+    margin-top: 4rem;
+    font-size: 1.7rem;
+    padding-left: 2rem;
+  }
+  .content__profile .profile-gender {
+    width: 30rem;
+    height: 10rem;
+    font-size: 1.7rem;
+    line-height: 5rem;
+  }
+  .content__profile .profile-gender .gender-women {
+    padding-left: 2rem;
+  }
+  .content__profile .profile-gender .gender-women .fa-check {
+    padding-right: 2rem;
+  }
+  .content__profile .profile-gender .gender-men {
+    padding-left: 2rem;
+  }
+  .content__profile .profile-gender .gender-men .fa-check {
+    padding-right: 2rem;
+  }
+  .content__profile .profile__btn-save .btn-save {
+    margin-top: 5rem;
+    width: 25rem;
+    height: 3.5rem;
+  }
+
+  .content__change-password .change-password-title {
+    font-size: 2.5rem;
+    padding-top: 10rem;
+  }
+  .content__change-password .current-password {
+    padding-top: 5rem;
+  }
+  .content__change-password .current-password .current-password-input {
+    width: 30rem;
+    height: 5rem;
+    font-size: 1.7rem;
+    margin: auto;
+    margin-top: 1rem;
+  }
+  .content__change-password .password {
+    padding-top: 1.5rem;
+  }
+  .content__change-password .password .password-input {
+    width: 30rem;
+    height: 5rem;
+    font-size: 1.7rem;
+    margin: auto;
+    margin-top: 1rem;
+  }
+  .content__change-password .password-confirmation {
+    padding-top: 1.5rem;
+  }
+  .content__change-password .password-confirmation .password-confirmation-input {
+    margin-top: 1.3rem;
+    width: 30rem;
+    height: 5rem;
+    font-size: 1.7rem;
+  }
+  .content__change-password .profile__btn-save .btn-save {
+    margin-top: 5rem;
+    width: 25rem;
+    height: 3.5rem;
+  }
+
+  .content__subscription .subscription-title {
+    font-size: 2.5rem;
+    padding-top: 10rem;
+  }
+  .content__subscription .subscription__registered-credit {
+    margin-top: 5rem;
+    width: 30rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .content__subscription .subscription__registered-credit .registered-credit {
+    font-size: 1.5rem;
+    padding-left: 0rem;
+    padding-top: 1rem;
+  }
+  .content__subscription .subscription__registered-credit .registered-credit span {
+    display: none;
+  }
+  .content__subscription .subscription__registered-credit .card-number {
+    padding-right: 0;
+    margin-left: 0;
+  }
+  .content__subscription .subscription__registered-credit .btn-register {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 1.7rem;
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  .content__subscription .subscription__list {
+    max-width: 134.5rem;
+    margin: 7rem auto;
+    padding: 0 1rem;
+  }
+  .content__subscription .subscription__list .purchase__history-title {
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    letter-spacing: 1px;
+  }
+  .content__subscription .subscription__list .subscription__list-table {
+    background-color: #ffffff;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    overflow-x: scroll;
+    letter-spacing: 1px;
+    color: #000000;
+    padding: 0 2rem;
+    height: 26rem;
+  }
+  .content__subscription .subscription__list .subscription__list-table table {
+    width: 100%;
+    min-width: 100rem;
+    text-align: center;
+  }
+  .content__subscription .subscription__list .subscription__list-table table tr {
+    border-bottom: 2px solid #707070;
+  }
+
+  .content__setting-account .subscription-title {
+    font-size: 2.5rem;
+    padding-top: 10rem;
+  }
+  .content__setting-account .subscription__registered-credit {
+    margin-top: 2rem;
+    width: 30rem;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .content__setting-account .subscription__registered-credit .card-number {
+    padding-left: 0;
+    padding-top: 1rem;
+  }
+  .content__setting-account .subscription__registered-credit .btn-register {
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+  .content__setting-account .subscription__list {
+    max-width: 134.5rem;
+    margin: 5rem auto;
+    padding: 0 2rem;
+  }
+  .content__setting-account .subscription__list .purchase__history-title {
+    font-size: 1.6rem;
+    padding-bottom: 2rem;
+    letter-spacing: 1px;
+  }
+  .content__setting-account .subscription__list .subscription__list-table {
+    background-color: #fff;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    overflow-x: scroll;
+    letter-spacing: 1px;
+    color: #000000;
+    padding: 0 5rem;
+    height: 26rem;
+  }
+  .content__setting-account .subscription__list .subscription__list-table table {
+    width: 100%;
+    min-width: 100rem;
+    text-align: center;
+  }
+  .content__setting-account .subscription__list .subscription__list-table table tr {
+    border-bottom: 2px solid #707070;
+  }
+
+  .content__register-card {
+    font-size: 1.9rem;
+  }
+  .content__register-card .credit__card-title {
+    font-size: 2.5rem;
+    padding-top: 10rem;
+  }
+  .content__register-card .credit__card {
+    width: 30rem;
+  }
+  .content__register-card .credit__card .card-number {
+    padding-top: 5rem;
+  }
+  .content__register-card .credit__card .card-number .card__number-title {
+    padding-left: 1.7rem;
+  }
+  .content__register-card .credit__card .card-number .card__number-input {
+    height: 5rem;
+    border-radius: 1.5rem;
+    font-size: 1.7rem;
+    margin: auto;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .content__register-card .credit__card .expiration {
+    padding-top: 2rem;
+  }
+  .content__register-card .credit__card .expiration .date-title {
+    padding-left: 1.7rem;
+    letter-spacing: 1px;
+  }
+  .content__register-card .credit__card .expiration .expiration__date {
+    text-align: center;
+    justify-content: space-between;
+  }
+  .content__register-card .credit__card .expiration .expiration__date a {
+    text-decoration: none;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .month {
+    padding-right: 0rem;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .month .select-box {
+    display: flex;
+    width: 14rem;
+    flex-direction: column;
+    font-size: 1.7rem;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .month .select-box .selected {
+    background: #ffffff;
+    border-radius: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #000000;
+    position: relative;
+    order: 0;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .month .select-box .selected::after {
+    content: "";
+    background: url("../image/dropdown.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 0.8rem;
+    width: 1.6rem;
+    right: 1.5rem;
+    top: 2.3rem;
+    transition: all 0.4s;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .month .select-box .options-container {
+    background-color: #ffffff;
+    color: #000000;
+    max-height: 0;
+    width: 14rem;
+    opacity: 0;
+    transition: all 0.4s;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    order: 1;
+    position: absolute;
+    top: 44rem;
+    box-shadow: 1px 0px 4px 1px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .month .select-box .options-container.active {
+    max-height: 20rem;
+    opacity: 1;
+    overflow-y: scroll;
+    font-size: 1.4rem;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .month .select-box .options-container.active + .selected::after {
+    transform: rotateX(180deg);
+  }
+  .content__register-card .credit__card .expiration .expiration__date .month .select-box .options-container::-webkit-scrollbar {
+    width: 0.8rem;
+    background: #0d141f;
+    border-radius: 0 0.8rem 0.8rem 0;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .month .select-box .options-container::-webkit-scrollbar-thumb {
+    background: #525861;
+    border-radius: 0 0.8rem 0.8rem 0;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .month .select-box .option,
+.content__register-card .credit__card .expiration .expiration__date .month .select-box .selected {
+    padding: 1.7rem;
+    cursor: pointer;
+    text-align: center;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .month .select-box .option:hover {
+    background: #414b57;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .month .select-box label {
+    cursor: pointer;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .month .select-box .option .radio {
+    display: none;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .year .select-box {
+    display: flex;
+    width: 14rem;
+    flex-direction: column;
+    font-size: 1.7rem;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .year .select-box .selected-year {
+    background: #ffffff;
+    border-radius: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #000000;
+    position: relative;
+    order: 0;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .year .select-box .selected-year::after {
+    content: "";
+    background: url("../image/dropdown.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 0.8rem;
+    width: 1.6rem;
+    right: 1.5rem;
+    top: 2.3rem;
+    transition: all 0.4s;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .year .select-box .options-container-year {
+    background-color: #ffffff;
+    color: #000000;
+    max-height: 0;
+    width: 14rem;
+    opacity: 0;
+    transition: all 0.4s;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    order: 1;
+    position: absolute;
+    top: 44rem;
+    box-shadow: 1px 0px 4px 1px rgba(0, 0, 0, 0.5);
+  }
+  .content__register-card .credit__card .expiration .expiration__date .year .select-box .options-container-year.active {
+    max-height: 20rem;
+    opacity: 1;
+    overflow-y: scroll;
+    font-size: 1.4rem;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .year .select-box .options-container-year.active + .selected-year::after {
+    transform: rotateX(180deg);
+  }
+  .content__register-card .credit__card .expiration .expiration__date .year .select-box .options-container-year::-webkit-scrollbar {
+    width: 0.8rem;
+    background: #0d141f;
+    border-radius: 0 0.8rem 0.8rem 0;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .year .select-box .options-container-year::-webkit-scrollbar-thumb {
+    background: #525861;
+    border-radius: 0 0.8rem 0.8rem 0;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .year .select-box .option-year,
+.content__register-card .credit__card .expiration .expiration__date .year .select-box .selected-year {
+    padding: 1.7rem;
+    cursor: pointer;
+    text-align: center;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .year .select-box .option-year:hover {
+    background: #414b57;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .year .select-box label {
+    cursor: pointer;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .year .select-box .option-year .radio {
+    display: none;
+  }
+  .content__register-card .credit__card .security-code {
+    padding-top: 2rem;
+  }
+  .content__register-card .credit__card .security-code .code-title {
+    padding-left: 1.7rem;
+    letter-spacing: 1px;
+  }
+  .content__register-card .credit__card .security-code .code-input {
+    height: 5rem;
+    border-radius: 1.5rem;
+    font-size: 1.7rem;
+    margin: auto;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .content__register-card .credit__card .credit__card-btn {
+    padding-top: 5rem;
+  }
+  .content__register-card .credit__card .credit__card-btn .card-btn {
+    display: inline-block;
+    text-align: center;
+  }
+  .content__register-card .credit__card .credit__card-btn .card-btn .card-btn-cancel {
+    color: #000000;
+    width: 25rem;
+    border-radius: 2.7rem;
+    height: 3.5rem;
+    font-size: 1.6rem;
+    background-color: #efefef;
+    border: 1px solid #000000;
+    letter-spacing: 1px;
+    padding-top: 0;
+    line-height: 3.5rem;
+  }
+  .content__register-card .credit__card .credit__card-btn .card-btn .card-btn-register {
+    background-color: #000000;
+    color: #ffffff;
+    width: 25rem;
+    border-radius: 2.7rem;
+    height: 3.5rem;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    margin-top: 3rem;
+  }
+
+  .content__setting-register .credit__card-title {
+    font-size: 2.5rem;
+    padding-top: 10rem;
+  }
+  .content__setting-register .credit__card {
+    display: block;
+    padding-top: 0;
+  }
+  .content__setting-register .credit__card .post {
+    text-align: center;
+    padding-right: 0;
+    margin: 2rem;
+    padding: 0rem 0 0rem;
+  }
+  .content__setting-register .credit__card .post .post-title {
+    font-size: 2rem;
+  }
+  .content__setting-register .credit__card .post::before {
+    border: none;
+  }
+  .content__setting-register .credit__card .post .post-img {
+    padding-top: 0;
+  }
+  .content__setting-register .credit__card .post .post-img .post-malone {
+    width: 29.8rem;
+    height: 42.3rem;
+  }
+  .content__setting-register .credit__card .post .post-content {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #000000;
+    padding-top: 0rem;
+  }
+  .content__setting-register .credit__card .form__credit-card {
+    padding-left: 0;
+    margin-top: 0rem;
+    padding-top: 0;
+    display: flex;
+    margin: auto;
+    width: 30rem;
+  }
+  .content__setting-register .credit__card .form__credit-card form {
+    width: 30rem;
+  }
+  .content__setting-register .credit__card .form__credit-card form .card-number .card__number-title {
+    padding-left: 1.7rem;
+    margin-bottom: 0rem;
+  }
+  .content__setting-register .credit__card .form__credit-card form .card-number .card__number-input {
+    margin-top: 0rem;
+    height: 5rem;
+    border-radius: 1.5rem;
+    font-size: 1.9rem;
+    width: 30rem;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration {
+    padding-top: 2rem;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .date-title {
+    padding-left: 1.7rem;
+    margin-bottom: 0;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date {
+    padding-top: 0;
+    text-align: center;
+    justify-content: space-between;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .month {
+    padding-right: 0rem;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .month .select-box {
+    display: flex;
+    width: 14rem;
+    flex-direction: column;
+    font-size: 1.9rem;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .month .select-box .selected {
+    background: #ffffff;
+    border-radius: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #000000;
+    position: relative;
+    order: 0;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .month .select-box .selected::after {
+    content: "";
+    background: url("../image/dropdown.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 0.8rem;
+    width: 1.6rem;
+    right: 1.5rem;
+    top: 2.3rem;
+    transition: all 0.4s;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .month .select-box .options-container {
+    background-color: #ffffff;
+    color: #000000;
+    max-height: 0;
+    width: 14rem;
+    opacity: 0;
+    transition: all 0.4s;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    order: 1;
+    position: absolute;
+    top: 96.5rem;
+    box-shadow: 1px 0px 4px 1px rgba(0, 0, 0, 0.5);
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .month .select-box .options-container.active {
+    max-height: 20rem;
+    opacity: 1;
+    overflow-y: scroll;
+    font-size: 1.4rem;
+    z-index: 1;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .month .select-box .options-container.active + .selected::after {
+    transform: rotateX(180deg);
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .month .select-box .options-container::-webkit-scrollbar {
+    width: 0.8rem;
+    background: #0d141f;
+    border-radius: 0 0.8rem 0.8rem 0;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .month .select-box .options-container::-webkit-scrollbar-thumb {
+    background: #525861;
+    border-radius: 0 0.8rem 0.8rem 0;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .month .select-box .option,
+.content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .month .select-box .selected {
+    padding: 1.2rem;
+    cursor: pointer;
+    text-align: center;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .month .select-box .option:hover {
+    background: #414b57;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .month .select-box label {
+    cursor: pointer;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .month .select-box .option .radio {
+    display: none;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .year .select-box {
+    display: flex;
+    width: 14rem;
+    flex-direction: column;
+    font-size: 1.9rem;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .year .select-box .selected-year {
+    background: #ffffff;
+    border-radius: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #000000;
+    position: relative;
+    order: 0;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .year .select-box .selected-year::after {
+    content: "";
+    background: url("../image/dropdown.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 0.8rem;
+    width: 1.6rem;
+    right: 1.5rem;
+    top: 2.3rem;
+    transition: all 0.4s;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .year .select-box .options-container-year {
+    background-color: #ffffff;
+    color: #000000;
+    max-height: 0;
+    width: 14rem;
+    opacity: 0;
+    transition: all 0.4s;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    order: 1;
+    position: absolute;
+    top: 96.5rem;
+    box-shadow: 1px 0px 4px 1px rgba(0, 0, 0, 0.5);
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .year .select-box .options-container-year.active {
+    max-height: 20rem;
+    opacity: 1;
+    overflow-y: scroll;
+    font-size: 1.4rem;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .year .select-box .options-container-year.active + .selected-year::after {
+    transform: rotateX(180deg);
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .year .select-box .options-container-year::-webkit-scrollbar {
+    width: 0.8rem;
+    background: #0d141f;
+    border-radius: 0 0.8rem 0.8rem 0;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .year .select-box .options-container-year::-webkit-scrollbar-thumb {
+    background: #525861;
+    border-radius: 0 0.8rem 0.8rem 0;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .year .select-box .option-year,
+.content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .year .select-box .selected-year {
+    padding: 1.2rem;
+    cursor: pointer;
+    text-align: center;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .year .select-box .option-year:hover {
+    background: #414b57;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .year .select-box label {
+    cursor: pointer;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .year .select-box .option-year .radio {
+    display: none;
+  }
+  .content__setting-register .credit__card .form__credit-card form .security-code {
+    padding-top: 0rem;
+  }
+  .content__setting-register .credit__card .form__credit-card form .security-code .code-title {
+    padding-left: 1.7rem;
+  }
+  .content__setting-register .credit__card .form__credit-card form .security-code .code-input {
+    margin-top: 0rem;
+    height: 5rem;
+    border-radius: 1.5rem;
+    font-size: 1.9rem;
+    width: 30rem;
+  }
+  .content__setting-register .credit__card .form__credit-card form .credit__card-btn {
+    padding-top: 3rem;
+  }
+  .content__setting-register .credit__card .form__credit-card form .credit__card-btn .card-btn {
+    display: block;
+    text-align: center;
+  }
+  .content__setting-register .credit__card .form__credit-card form .credit__card-btn .card-btn .card-btn-cancel {
+    color: #000000;
+    width: 25rem;
+    border-radius: 2.7rem;
+    height: 3.5rem;
+    font-size: 1.6rem;
+    background-color: #efefef;
+    border: 1px solid #000000;
+    line-height: 3.5rem;
+    margin-right: 0;
+  }
+  .content__setting-register .credit__card .form__credit-card form .credit__card-btn .card-btn .card-btn-register {
+    margin-top: 3rem;
+    background-color: #000000;
+    color: #ffffff;
+    width: 25rem;
+    border-radius: 2.7rem;
+    height: 3.5rem;
+    font-size: 1.6rem;
+    margin-right: 0rem;
+  }
+
+  .content__subscription-list {
+    padding: 0rem;
+    padding-bottom: 8rem;
+  }
+  .content__subscription-list .subscription-title {
+    font-size: 2.5rem;
+    padding-top: 7rem;
+  }
+  .content__subscription-list .subscription__registered-credit {
+    margin-top: 5rem;
+    width: 30rem;
+    height: 11rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .content__subscription-list .subscription__registered-credit .registered-credit {
+    font-size: 1.5rem;
+    padding-left: 0rem;
+    text-align: center;
+    padding-top: 1rem;
+  }
+  .content__subscription-list .subscription__registered-credit .registered-credit span {
+    display: block;
+  }
+  .content__subscription-list .subscription__registered-credit .credit__card-number .credit-card {
+    width: 2.4rem;
+    height: 1.9rem;
+    margin-left: 0;
+    margin-right: 1rem;
+  }
+  .content__subscription-list .subscription__registered-credit .credit__card-number .card-number {
+    text-align: center;
+    margin-left: 0;
+    font-size: 1.5rem;
+    padding-right: 0;
+  }
+  .content__subscription-list .subscription__registered-credit .btn-setting {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-left: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 0;
+  }
+  .content__subscription-list .subscription__list {
+    max-width: 134.4rem;
+    margin: 5rem auto;
+    padding: 0 1rem;
+  }
+  .content__subscription-list .subscription__list .subscription__list-title {
+    display: block;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+  }
+  .content__subscription-list .subscription__list .subscription__list-title .title-list {
+    display: none;
+  }
+  .content__subscription-list .subscription__list .subscription__list-title .title-cancel {
+    width: 25rem;
+    margin: auto;
+    text-align: center;
+    height: 3.5rem;
+    margin-bottom: 2rem;
+  }
+  .content__subscription-list .subscription__list .subscription__list-table {
+    line-height: 5rem;
+    padding: 0 2rem;
+  }
+  .content__subscription-list .subscription__list .subscription__list-table table {
+    width: 100%;
+    min-width: 100rem;
+  }
+  .content__subscription-list .subscription__list .subscription__list-table table tr td {
+    padding-left: 1rem;
+  }
+  .content__subscription-list .subscription__list .subscription__list-table table tr td .list-table-card {
+    display: flex;
+  }
+  .content__subscription-list .subscription__list .subscription__list-table table tr td .list-table-card .card-number {
+    padding-left: 3.5rem;
+  }
+
+  .content__change-card {
+    padding-bottom: 10rem;
+  }
+  .content__change-card .credit__card-title {
+    font-size: 2.5rem;
+    padding-top: 10rem;
+  }
+  .content__change-card .subscription__registered-credit {
+    width: 30rem;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    flex-direction: column;
+  }
+  .content__change-card .subscription__registered-credit .registered-credit {
+    font-size: 1.7rem;
+    padding-left: 0rem;
+  }
+  .content__change-card .subscription__registered-credit .registered-credit span {
+    display: none;
+  }
+  .content__change-card .subscription__registered-credit .credit__card-number {
+    display: flex;
+    padding-top: 1rem;
+  }
+  .content__change-card .subscription__registered-credit .credit__card-number .credit-card {
+    width: 2.4rem;
+    height: 1.9rem;
+    margin-left: 0rem;
+    margin-right: 1rem;
+  }
+  .content__change-card .subscription__registered-credit .credit__card-number .card-number {
+    margin-left: 0rem;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+    color: #000000;
+  }
+  .content__change-card .credit__card .card-number {
+    padding-top: 5rem;
+    width: 30rem;
+    margin: auto;
+  }
+  .content__change-card .credit__card .card-number .card__number-title {
+    padding-left: 1.7rem;
+    font-size: 1.7rem;
+  }
+  .content__change-card .credit__card .card-number .card__number-input {
+    margin-top: 1.3rem;
+    height: 5rem;
+    border-radius: 1.5rem;
+    font-size: 1.7rem;
+    padding: 0 4.3rem;
+    width: 30rem;
+  }
+  .content__change-card .credit__card .expiration {
+    padding-top: 3.4rem;
+  }
+  .content__change-card .credit__card .expiration .date-title {
+    padding-left: 1.7rem;
+    font-size: 1.9rem;
+  }
+  .content__change-card .credit__card .expiration .expiration__date {
+    padding-top: 1rem;
+    justify-content: space-between;
+  }
+  .content__change-card .credit__card .expiration .expiration__date a {
+    text-decoration: none;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .month {
+    padding-right: 0rem;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .month .select-box {
+    display: flex;
+    width: 14rem;
+    flex-direction: column;
+    font-size: 1.7rem;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .month .select-box .selected {
+    background: #ffffff;
+    border-radius: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #000000;
+    position: relative;
+    order: 0;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .month .select-box .selected::after {
+    content: "";
+    background: url("../image/dropdown.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 0.8rem;
+    width: 1.6rem;
+    right: 1.5rem;
+    top: 2.3rem;
+    transition: all 0.4s;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .month .select-box .options-container {
+    background-color: #ffffff;
+    color: #000000;
+    max-height: 0;
+    width: 14rem;
+    opacity: 0;
+    transition: all 0.4s;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    order: 1;
+    position: absolute;
+    top: 57rem;
+    box-shadow: 1px 0px 4px 1px rgba(0, 0, 0, 0.5);
+  }
+  .content__change-card .credit__card .expiration .expiration__date .month .select-box .options-container.active {
+    max-height: 20rem;
+    opacity: 1;
+    overflow-y: scroll;
+    font-size: 1.4rem;
+    z-index: 1;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .month .select-box .options-container.active + .selected::after {
+    transform: rotateX(180deg);
+  }
+  .content__change-card .credit__card .expiration .expiration__date .month .select-box .options-container::-webkit-scrollbar {
+    width: 0.8rem;
+    background: #0d141f;
+    border-radius: 0 0.8rem 0.8rem 0;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .month .select-box .options-container::-webkit-scrollbar-thumb {
+    background: #525861;
+    border-radius: 0 0.8rem 0.8rem 0;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .month .select-box .option,
+.content__change-card .credit__card .expiration .expiration__date .month .select-box .selected {
+    padding: 1.7rem;
+    cursor: pointer;
+    text-align: center;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .month .select-box .option:hover {
+    background: #414b57;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .month .select-box label {
+    cursor: pointer;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .month .select-box .option .radio {
+    display: none;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .year .select-box {
+    display: flex;
+    width: 14rem;
+    flex-direction: column;
+    font-size: 1.7rem;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .year .select-box .selected-year {
+    background: #ffffff;
+    border-radius: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #000000;
+    position: relative;
+    order: 0;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .year .select-box .selected-year::after {
+    content: "";
+    background: url("../image/dropdown.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 0.8rem;
+    width: 1.6rem;
+    right: 1.5rem;
+    top: 2.3rem;
+    transition: all 0.4s;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .year .select-box .options-container-year {
+    background-color: #ffffff;
+    color: #000000;
+    max-height: 0;
+    width: 14rem;
+    opacity: 0;
+    transition: all 0.4s;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    order: 1;
+    position: absolute;
+    top: 57rem;
+    box-shadow: 1px 0px 4px 1px rgba(0, 0, 0, 0.5);
+  }
+  .content__change-card .credit__card .expiration .expiration__date .year .select-box .options-container-year.active {
+    max-height: 20rem;
+    opacity: 1;
+    overflow-y: scroll;
+    font-size: 1.4rem;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .year .select-box .options-container-year.active + .selected-year::after {
+    transform: rotateX(180deg);
+  }
+  .content__change-card .credit__card .expiration .expiration__date .year .select-box .options-container-year::-webkit-scrollbar {
+    width: 0.8rem;
+    background: #0d141f;
+    border-radius: 0 0.8rem 0.8rem 0;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .year .select-box .options-container-year::-webkit-scrollbar-thumb {
+    background: #525861;
+    border-radius: 0 0.8rem 0.8rem 0;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .year .select-box .option-year,
+.content__change-card .credit__card .expiration .expiration__date .year .select-box .selected-year {
+    padding: 1.8rem;
+    cursor: pointer;
+    text-align: center;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .year .select-box .option-year:hover {
+    background: #414b57;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .year .select-box label {
+    cursor: pointer;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .year .select-box .option-year .radio {
+    display: none;
+  }
+  .content__change-card .credit__card .security-code {
+    padding-top: 2rem;
+  }
+  .content__change-card .credit__card .security-code .code-title {
+    padding-left: 1.7rem;
+    font-size: 1.9rem;
+  }
+  .content__change-card .credit__card .security-code .code-input {
+    margin-top: 1.3rem;
+    width: 30rem;
+    height: 5rem;
+    border-radius: 1.5rem;
+    font-size: 1.9rem;
+    padding: 0 4.3rem;
+  }
+  .content__change-card .credit__card .credit__card-btn {
+    margin: auto;
+    padding-top: 5rem;
+    width: 30rem;
+    text-align: center;
+  }
+  .content__change-card .credit__card .credit__card-btn .card-btn {
+    display: block;
+  }
+  .content__change-card .credit__card .credit__card-btn .card-btn .card-btn-cancel {
+    color: #000000;
+    width: 25rem;
+    border-radius: 2.7rem;
+    height: 3.5rem;
+    font-size: 1.6rem;
+    background-color: #efefef;
+    border: 1px solid #000000;
+    letter-spacing: 1px;
+    padding-top: 0;
+    line-height: 3.5rem;
+  }
+  .content__change-card .credit__card .credit__card-btn .card-btn .card-btn-register {
+    background-color: #000000;
+    color: #ffffff;
+    width: 25rem;
+    border-radius: 2.7rem;
+    height: 3.5rem;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    margin-top: 2rem;
+  }
+
+  .content__unregister .unregister-title {
+    font-size: 2.5rem;
+    padding-top: 10rem;
+  }
+  .content__unregister .unregister-description {
+    font-size: 1.7rem;
+    width: 30rem;
+    padding-top: 5rem;
+  }
+  .content__unregister .unregister-date {
+    font-size: 1.5rem;
+    padding-top: 2rem;
+  }
+  .content__unregister .credit__card-btn {
+    padding-top: 5rem;
+  }
+  .content__unregister .credit__card-btn .card-btn {
+    display: block;
+    text-align: center;
+  }
+  .content__unregister .credit__card-btn .card-btn .card-btn-cancel {
+    width: 25rem;
+    height: 3.5rem;
+    margin-right: 0rem;
+  }
+  .content__unregister .credit__card-btn .card-btn .card-btn-register {
+    margin-top: 3rem;
+    width: 25rem;
+    height: 3.5rem;
+  }
+
+  .content__unregister-finish .unregister-title {
+    font-size: 2.5rem;
+    padding-top: 10rem;
+  }
+  .content__unregister-finish .unregister-description {
+    font-size: 1.5rem;
+    padding-top: 5rem;
+  }
+  .content__unregister-finish .top-page-btn {
+    margin-top: 5rem;
+    width: 25rem;
+    height: 3.5rem;
+    margin-right: 0rem;
+  }
+
+  .content__contact-faq .question-title {
+    padding-top: 10rem;
+    font-size: 2.5rem;
+  }
+  .content__contact-faq .contact__faq .faq {
+    padding-top: 5rem;
+    text-align: center;
+  }
+  .content__contact-faq .contact__faq .question {
+    padding-top: 2rem;
+    display: flex;
+  }
+  .content__contact-faq .contact__faq .question .q {
+    margin-left: 0rem;
+  }
+  .content__contact-faq .contact__faq .answer {
+    padding-top: 2rem;
+    display: flex;
+  }
+  .content__contact-faq .contact__faq .answer .a {
+    margin-left: 0rem;
+  }
+  .content__contact-faq .contact__faq hr {
+    color: #707070;
+    margin-top: 2rem;
+  }
+  .content__contact-faq .contact-btn-sub {
+    padding-bottom: 5rem;
+  }
+  .content__contact-faq .contact-btn-sub .contact-btn {
+    margin-top: 5rem;
+    width: 25rem;
+    height: 3.5rem;
+  }
+
+  .content__contact {
+    font-size: 1.7rem;
+  }
+  .content__contact .credit__card-title {
+    font-size: 2.5rem;
+    padding-top: 10rem;
+  }
+  .content__contact .contact {
+    padding-top: 5rem;
+  }
+  .content__contact .contact .contact-name {
+    padding-top: 0rem;
+  }
+  .content__contact .contact .contact-name .name-top .mandatory {
+    padding: 0.5rem 1.6rem;
+  }
+  .content__contact .contact .contact-name .name-input {
+    width: 30rem;
+    height: 5rem;
+    font-size: 1.7rem;
+  }
+  .content__contact .contact .contact-email {
+    padding-top: 2rem;
+  }
+  .content__contact .contact .contact-email .email-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .content__contact .contact .contact-email .email-top .email {
+    padding-left: 1.7rem;
+  }
+  .content__contact .contact .contact-email .email-top .mandatory {
+    padding: 0.5rem 1.6rem;
+  }
+  .content__contact .contact .contact-email .email-input {
+    width: 30rem;
+    height: 5rem;
+    font-size: 1.7rem;
+  }
+  .content__contact .contact .contact-inquiry {
+    padding-top: 2rem;
+  }
+  .content__contact .contact .contact-inquiry .inquiry-top .mandatory {
+    padding: 0.5rem 1.6rem;
+  }
+  .content__contact .contact .contact-inquiry .inquiry-input {
+    width: 30rem;
+    height: 5rem;
+    font-size: 1.7rem;
+  }
+  .content__contact .contact .contact-content {
+    padding-top: 2rem;
+  }
+  .content__contact .contact .contact-content .content-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .content__contact .contact .contact-content .content-top .content {
+    padding-left: 1.7rem;
+  }
+  .content__contact .contact .contact-content .content-top .mandatory {
+    padding: 0.5rem 1.6rem;
+    margin-right: 1.2rem;
+  }
+  .content__contact .contact .contact-content .content-input {
+    margin-top: 1.3rem;
+    border-radius: 1.5rem;
+    font-size: 1.7rem;
+    padding: 0rem 0rem;
+  }
+  .content__contact .contact .check-contact {
+    padding-top: 2rem;
+    padding-left: 3rem;
+    display: flex;
+    align-items: center;
+  }
+  .content__contact .contact .check-contact .form-check-input {
+    width: 2rem;
+    height: 2rem;
+  }
+  .content__contact .contact .check-contact .form-check-label {
+    font-size: 1.4rem;
+    padding-left: 2rem;
+    position: relative;
+  }
+  .content__contact .contact .check-contact .form-check-label::before {
+    content: "";
+    width: 9rem;
+    bottom: -1rem;
+    position: absolute;
+    border: 1px solid #707070;
+  }
+  .content__contact .contact .contact-btn-sub {
+    text-align: center;
+  }
+  .content__contact .contact .contact-btn-sub .contact-btn {
+    margin: auto;
+    margin-top: 5rem;
+    width: 25rem;
+    height: 3.5rem;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 576px) {
+  .navbar.navbar-light {
+    padding: 0 1rem;
+    height: 8rem;
+  }
+  .navbar.navbar-light .logo {
+    width: 11rem;
+    height: 7rem;
+  }
+  .navbar.navbar-light .form-inline {
+    font-size: 0.8rem;
+    width: 14rem;
+    height: 3rem;
+    min-width: 14rem;
+    line-height: 3rem;
+  }
+  .navbar.navbar-light .form-inline .nav-login .btn {
+    font-size: 1.2rem;
+  }
+  .navbar.navbar-light .nav__user-icon {
+    align-items: 11.7rem;
+  }
+  .navbar.navbar-light .nav__user-icon .user-icon {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .content__sns-registration {
+    border-radius: 2.8rem;
+    width: 30rem;
+    height: 30rem;
+    margin-top: calc(7rem);
+  }
+  .content__sns-registration .fa-times {
+    font-size: 2rem;
+  }
+  .content__sns-registration .logo {
+    width: 10rem;
+    height: 3rem;
+  }
+  .content__sns-registration .content__login-brand {
+    padding-top: 2.7rem;
+  }
+  .content__sns-registration .btn-signup {
+    margin-top: 1rem;
+    width: 21.5rem;
+    height: 3.5rem;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+  }
+  .content__sns-registration .btn-login {
+    margin-top: 1rem;
+    width: 21.5rem;
+    height: 3.5rem;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+  }
+  .content__sns-registration .content__login-or {
+    padding-top: 2rem;
+    font-size: 1.2rem;
+  }
+  .content__sns-registration .content__login-or::before {
+    width: 9rem;
+    left: 4rem;
+    top: 2.5rem;
+  }
+  .content__sns-registration .content__login-or::after {
+    width: 9rem;
+    right: 4rem;
+    top: 2.5rem;
+  }
+  .content__sns-registration .content__login-description {
+    padding-top: 2rem;
+    font-size: 1.2rem;
+  }
+  .content__sns-registration .content__login-icon {
+    padding-top: 2rem;
+    padding-bottom: 14rem;
+  }
+  .content__sns-registration .content__login-icon .icon {
+    width: 3rem;
+    height: 3rem;
+    margin: 0.5rem;
+  }
+
+  .content__signup {
+    border-radius: 2.8rem;
+    width: 30rem;
+    height: 60rem;
+    margin-top: calc(7rem);
+  }
+  .content__signup .fa-times {
+    font-size: 2rem;
+    right: 3.5rem;
+    top: 2.5rem;
+  }
+  .content__signup .content__signup-main {
+    padding: 0px 2rem;
+  }
+  .content__signup .content__signup-main .content__signup-title {
+    padding-top: 4rem;
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+  }
+  .content__signup .content__signup-main .signup-input {
+    width: 26rem;
+    height: 3.5rem;
+    font-size: 1.3rem;
+  }
+  .content__signup .content__signup-main .content__signup-gender {
+    margin-top: 1rem;
+    font-size: 1.3;
+  }
+  .content__signup .content__signup-main .content__signup-gender .input-women {
+    width: 12.5rem;
+    height: 3.5rem;
+    background-color: #f7f6f8;
+    color: #83828a;
+    border-radius: 0.8rem;
+    display: flex;
+    align-items: center;
+  }
+  .content__signup .content__signup-main .content__signup-gender .input-men {
+    width: 12.5rem;
+    height: 3.5rem;
+    background-color: #f7f6f8;
+    color: #83828a;
+    border-radius: 0.8rem;
+    display: flex;
+    align-items: center;
+  }
+  .content__signup .content__signup-main .content__signup-validate-error {
+    padding-top: 1rem;
+    font-size: 1.1rem;
+  }
+  .content__signup .content__signup-main .email-signup {
+    padding-top: 1.4rem;
+  }
+  .content__signup .content__signup-main .email-signup .email {
+    font-size: 1.2rem;
+    padding-left: 1rem;
+  }
+  .content__signup .content__signup-main .password-signup {
+    padding-top: 1.4rem;
+  }
+  .content__signup .content__signup-main .password-signup .password {
+    font-size: 1.2rem;
+    padding-left: 1rem;
+  }
+  .content__signup .content__signup-main .password-signup-confirmation {
+    padding-top: 1.4rem;
+  }
+  .content__signup .content__signup-main .password-signup-confirmation .password-confirmation {
+    font-size: 1.2rem;
+  }
+  .content__signup .content__signup-main .form-check {
+    padding-top: 1rem;
+  }
+  .content__signup .content__signup-main .form-check .round {
+    position: relative;
+  }
+  .content__signup .content__signup-main .form-check .round label {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 2rem;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 2rem;
+  }
+  .content__signup .content__signup-main .form-check .round label::after {
+    border: 2px solid #fff;
+    border-top: none;
+    border-right: none;
+    content: "";
+    height: 0.6rem;
+    left: 0.4rem;
+    opacity: 0;
+    position: absolute;
+    top: 0.5rem;
+    transform: rotate(-45deg);
+    width: 1.2rem;
+  }
+  .content__signup .content__signup-main .form-check .round input[type=checkbox] {
+    visibility: hidden;
+  }
+  .content__signup .content__signup-main .form-check .round input[type=checkbox]:checked + label {
+    background-color: #66bb6a;
+    border-color: #66bb6a;
+  }
+  .content__signup .content__signup-main .form-check .round input[type=checkbox]:checked + label:after {
+    opacity: 1;
+  }
+  .content__signup .content__signup-main .form-check .check-title {
+    font-size: 1.4rem;
+    padding-left: 1.5rem;
+    letter-spacing: 1px;
+  }
+  .content__signup .content__signup-main .form-check .check-title span {
+    border-bottom: 1px solid #000000;
+  }
+  .content__signup .content__signup-main .subscript-btn-next {
+    padding-bottom: 12rem;
+  }
+  .content__signup .content__signup-main .subscript-btn-next .btn-subscription-next {
+    width: 20rem;
+    height: 3.5rem;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+  }
+
+  .content__send-email {
+    width: 33.3rem;
+    height: 20rem;
+    margin-top: calc(10rem);
+  }
+  .content__send-email .fa-times {
+    font-size: 2rem;
+  }
+  .content__send-email .send__email .send__email-title {
+    padding-top: 4.5rem;
+    font-size: 2.5rem;
+  }
+  .content__send-email .send__email .send__email-content {
+    padding: 3rem 5rem;
+    font-size: 1.5rem;
+  }
+
+  .content__registration-completed {
+    width: 33rem;
+    height: 20rem;
+    margin: auto;
+    margin-top: calc(10rem);
+  }
+  .content__registration-completed .fa-times {
+    font-size: 2rem;
+  }
+  .content__registration-completed .registration__completed {
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  .content__registration-completed .registration__completed .registration__completed-title {
+    padding-top: 6rem;
+    font-size: 2rem;
+    color: #000000;
+  }
+  .content__registration-completed .registration__completed .subscript-btn-subscription .btn-subscription {
+    width: 20rem;
+    border-radius: 50rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    letter-spacing: 1px;
+  }
+
+  .content__login {
+    width: 33.5rem;
+    height: 30rem;
+    margin-top: calc(7rem);
+  }
+  .content__login .fa-times {
+    font-size: 2rem;
+    right: 7%;
+    top: 7%;
+  }
+  .content__login .login-title {
+    padding-top: 4rem;
+    font-size: 2.5rem;
+  }
+  .content__login .form-login .input-email {
+    margin-top: 2rem;
+    width: 25rem;
+    height: 3.5rem;
+  }
+  .content__login .form-login .input-password {
+    margin-top: 2rem;
+    width: 25rem;
+    height: 3.5rem;
+  }
+  .content__login .form-login .forgot-password {
+    font-size: 1.2rem;
+  }
+  .content__login .subscript-btn-next .btn-subscription-next {
+    width: 25rem;
+    border-radius: 5rem;
+    height: 3.5rem;
+    font-size: 1.6rem;
+    margin-top: 4rem;
+  }
+
+  .content__reset-password {
+    width: 33.3rem;
+    height: 25rem;
+    margin-top: calc(10rem);
+  }
+  .content__reset-password .fa-times {
+    font-size: 2rem;
+    right: 7%;
+    top: 7%;
+  }
+  .content__reset-password .reset__password .reset__password-title {
+    padding-top: 5rem;
+    font-size: 2.5rem;
+  }
+  .content__reset-password .reset__password .form-reset .input-email {
+    margin-top: 2rem;
+    width: 25rem;
+    height: 3.5rem;
+    padding-left: 2rem;
+  }
+  .content__reset-password .reset__password .subscript-btn-next .btn-subscription-next {
+    width: 25rem;
+    border-radius: 5rem;
+    height: 3.5rem;
+    font-size: 1.6rem;
+    margin-top: 4rem;
+  }
+
+  .user__information {
+    right: 1rem;
+    width: 34rem;
+    height: 28rem;
+    top: 8rem;
+  }
+  .user__information::before {
+    border-left: 2.3rem solid transparent;
+    border-right: 2.3rem solid transparent;
+    border-bottom: 3rem solid #ffffff;
+    top: -1.5rem;
+    right: 0;
+  }
+  .user__information .user__information-list {
+    padding: 2.4rem 1.2rem;
+    font-size: 1.8rem;
+  }
+  .user__information .user__information-list .information {
+    padding: 1rem 0;
+    letter-spacing: 1px;
+  }
+  .user__information .user__information-list .information img {
+    padding-right: 2.5rem;
+    padding-left: 3.6rem;
+  }
+
+  .content__account .account-title {
+    font-size: 2.5rem;
+  }
+  .content__account .account {
+    margin-top: 4rem;
+    font-size: 1.7rem;
+    line-height: 5rem;
+    width: 33.3rem;
+  }
+  .content__account .account .email .btn-email {
+    padding-left: 2.5rem;
+  }
+  .content__account .account .email .btn-email img {
+    margin-right: 3rem;
+  }
+  .content__account .account .email .btn-email span {
+    font-size: 2rem;
+  }
+  .content__account .account .email .btn-email .fa-angle-right {
+    padding: 0 3rem;
+    font-size: 2rem;
+  }
+  .content__account .account .profile .btn-profile {
+    padding-left: 2.5rem;
+  }
+  .content__account .account .profile .btn-profile img {
+    margin-right: 3rem;
+  }
+  .content__account .account .profile .btn-profile span {
+    font-size: 2rem;
+  }
+  .content__account .account .profile .btn-profile .fa-angle-right {
+    padding: 0 3rem;
+    font-size: 2rem;
+  }
+  .content__account .account .change-password .btn-change-password {
+    padding-left: 2.5rem;
+  }
+  .content__account .account .change-password .btn-change-password img {
+    margin-right: 3rem;
+  }
+  .content__account .account .change-password .btn-change-password span {
+    font-size: 2rem;
+  }
+  .content__account .account .change-password .btn-change-password .fa-angle-right {
+    padding: 0 3rem;
+    font-size: 2rem;
+  }
+  .content__account .account__btn-logout .btn-logout {
+    margin-top: 5rem;
+    width: 25rem;
+    height: 3.5rem;
+  }
+
+  .content__email .email-title {
+    font-size: 2.5rem;
+  }
+  .content__email .contact-name {
+    padding-top: 5rem;
+  }
+  .content__email .contact-name .name-input {
+    margin-top: 1.3rem;
+    width: 33.3rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    padding-left: 3rem;
+  }
+  .content__email .profile__btn-save .btn-save {
+    margin-top: 5rem;
+    width: 25rem;
+    height: 3.5rem;
+  }
+
+  .content__profile .profile-title {
+    font-size: 2.5rem;
+    padding-top: 10rem;
+  }
+  .content__profile .profile-birthday {
+    width: 33.3rem;
+    height: 5rem;
+    margin-top: 4rem;
+    font-size: 1.7rem;
+    padding-left: 2rem;
+  }
+  .content__profile .profile-gender {
+    width: 33.3rem;
+    height: 10rem;
+    font-size: 1.7rem;
+    line-height: 5rem;
+  }
+  .content__profile .profile-gender .gender-women {
+    padding-left: 2rem;
+  }
+  .content__profile .profile-gender .gender-women .fa-check {
+    padding-right: 2rem;
+  }
+  .content__profile .profile-gender .gender-men {
+    padding-left: 2rem;
+  }
+  .content__profile .profile-gender .gender-men .fa-check {
+    padding-right: 2rem;
+  }
+  .content__profile .profile__btn-save .btn-save {
+    margin-top: 5rem;
+    width: 25rem;
+    height: 3.5rem;
+  }
+
+  .content__change-password .change-password-title {
+    font-size: 2.5rem;
+    padding-top: 10rem;
+  }
+  .content__change-password .current-password {
+    padding-top: 5rem;
+  }
+  .content__change-password .current-password .current-password-input {
+    width: 33.3rem;
+    height: 5rem;
+    font-size: 1.7rem;
+    margin: auto;
+    margin-top: 1rem;
+  }
+  .content__change-password .password {
+    padding-top: 1.5rem;
+  }
+  .content__change-password .password .password-input {
+    width: 33.3rem;
+    height: 5rem;
+    font-size: 1.7rem;
+    margin: auto;
+    margin-top: 1rem;
+  }
+  .content__change-password .password-confirmation {
+    padding-top: 1.5rem;
+  }
+  .content__change-password .password-confirmation .password-confirmation-input {
+    margin-top: 1.3rem;
+    width: 33.3rem;
+    height: 5rem;
+    font-size: 1.7rem;
+  }
+  .content__change-password .profile__btn-save .btn-save {
+    margin-top: 5rem;
+    width: 25rem;
+    height: 3.5rem;
+  }
+
+  .content__subscription .subscription-title {
+    font-size: 2.5rem;
+    padding-top: 10rem;
+  }
+  .content__subscription .subscription__registered-credit {
+    margin-top: 5rem;
+    width: 33.3rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .content__subscription .subscription__registered-credit .registered-credit {
+    font-size: 1.5rem;
+    padding-left: 0rem;
+    padding-top: 1rem;
+  }
+  .content__subscription .subscription__registered-credit .registered-credit span {
+    display: none;
+  }
+  .content__subscription .subscription__registered-credit .card-number {
+    padding-right: 0;
+    margin-left: 0;
+  }
+  .content__subscription .subscription__registered-credit .btn-register {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 1.7rem;
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  .content__subscription .subscription__list {
+    max-width: 134.5rem;
+    margin: 7rem auto;
+    padding: 0 1rem;
+  }
+  .content__subscription .subscription__list .purchase__history-title {
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    letter-spacing: 1px;
+  }
+  .content__subscription .subscription__list .subscription__list-table {
+    background-color: #ffffff;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    overflow-x: scroll;
+    letter-spacing: 1px;
+    color: #000000;
+    padding: 0 2rem;
+    height: 26rem;
+  }
+  .content__subscription .subscription__list .subscription__list-table table {
+    width: 100%;
+    min-width: 100rem;
+    text-align: center;
+  }
+  .content__subscription .subscription__list .subscription__list-table table tr {
+    border-bottom: 2px solid #707070;
+  }
+
+  .content__setting-account .subscription-title {
+    font-size: 2.5rem;
+    padding-top: 10rem;
+  }
+  .content__setting-account .subscription__registered-credit {
+    margin-top: 2rem;
+    width: 33.3rem;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .content__setting-account .subscription__registered-credit .card-number {
+    padding-left: 0;
+    padding-top: 1rem;
+  }
+  .content__setting-account .subscription__registered-credit .btn-register {
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+  .content__setting-account .subscription__list {
+    max-width: 134.5rem;
+    margin: 5rem auto;
+    padding: 0 2rem;
+  }
+  .content__setting-account .subscription__list .purchase__history-title {
+    font-size: 1.6rem;
+    padding-bottom: 2rem;
+    letter-spacing: 1px;
+  }
+  .content__setting-account .subscription__list .subscription__list-table {
+    background-color: #fff;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    overflow-x: scroll;
+    letter-spacing: 1px;
+    color: #000000;
+    padding: 0 5rem;
+    height: 26rem;
+  }
+  .content__setting-account .subscription__list .subscription__list-table table {
+    width: 100%;
+    min-width: 100rem;
+    text-align: center;
+  }
+  .content__setting-account .subscription__list .subscription__list-table table tr {
+    border-bottom: 2px solid #707070;
+  }
+
+  .content__register-card {
+    font-size: 1.9rem;
+  }
+  .content__register-card .credit__card-title {
+    font-size: 2.5rem;
+    padding-top: 10rem;
+  }
+  .content__register-card .credit__card {
+    width: 33.3rem;
+  }
+  .content__register-card .credit__card .card-number {
+    padding-top: 5rem;
+  }
+  .content__register-card .credit__card .card-number .card__number-title {
+    padding-left: 1.7rem;
+  }
+  .content__register-card .credit__card .card-number .card__number-input {
+    height: 5rem;
+    border-radius: 1.5rem;
+    font-size: 1.7rem;
+    margin: auto;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .content__register-card .credit__card .expiration {
+    padding-top: 2rem;
+  }
+  .content__register-card .credit__card .expiration .date-title {
+    padding-left: 1.7rem;
+    letter-spacing: 1px;
+  }
+  .content__register-card .credit__card .expiration .expiration__date {
+    text-align: center;
+  }
+  .content__register-card .credit__card .expiration .expiration__date a {
+    text-decoration: none;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .month {
+    padding-right: 3.5rem;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .month .select-box {
+    display: flex;
+    width: 15rem;
+    flex-direction: column;
+    font-size: 1.7rem;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .month .select-box .selected {
+    background: #ffffff;
+    border-radius: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #000000;
+    position: relative;
+    order: 0;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .month .select-box .selected::after {
+    content: "";
+    background: url("../image/dropdown.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 0.8rem;
+    width: 1.6rem;
+    right: 2rem;
+    top: 2.3rem;
+    transition: all 0.4s;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .month .select-box .options-container {
+    background-color: #ffffff;
+    color: #000000;
+    max-height: 0;
+    width: 15rem;
+    opacity: 0;
+    transition: all 0.4s;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    order: 1;
+    position: absolute;
+    top: 44rem;
+    box-shadow: 1px 0px 4px 1px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .month .select-box .options-container.active {
+    max-height: 20rem;
+    opacity: 1;
+    overflow-y: scroll;
+    font-size: 1.4rem;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .month .select-box .options-container.active + .selected::after {
+    transform: rotateX(180deg);
+  }
+  .content__register-card .credit__card .expiration .expiration__date .month .select-box .options-container::-webkit-scrollbar {
+    width: 0.8rem;
+    background: #0d141f;
+    border-radius: 0 0.8rem 0.8rem 0;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .month .select-box .options-container::-webkit-scrollbar-thumb {
+    background: #525861;
+    border-radius: 0 0.8rem 0.8rem 0;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .month .select-box .option,
+.content__register-card .credit__card .expiration .expiration__date .month .select-box .selected {
+    padding: 1.7rem;
+    cursor: pointer;
+    text-align: center;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .month .select-box .option:hover {
+    background: #414b57;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .month .select-box label {
+    cursor: pointer;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .month .select-box .option .radio {
+    display: none;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .year .select-box {
+    display: flex;
+    width: 15rem;
+    flex-direction: column;
+    font-size: 1.7rem;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .year .select-box .selected-year {
+    background: #ffffff;
+    border-radius: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #000000;
+    position: relative;
+    order: 0;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .year .select-box .selected-year::after {
+    content: "";
+    background: url("../image/dropdown.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 0.8rem;
+    width: 1.6rem;
+    right: 2rem;
+    top: 2.3rem;
+    transition: all 0.4s;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .year .select-box .options-container-year {
+    background-color: #ffffff;
+    color: #000000;
+    max-height: 0;
+    width: 15rem;
+    opacity: 0;
+    transition: all 0.4s;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    order: 1;
+    position: absolute;
+    top: 44rem;
+    box-shadow: 1px 0px 4px 1px rgba(0, 0, 0, 0.5);
+  }
+  .content__register-card .credit__card .expiration .expiration__date .year .select-box .options-container-year.active {
+    max-height: 20rem;
+    opacity: 1;
+    overflow-y: scroll;
+    font-size: 1.4rem;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .year .select-box .options-container-year.active + .selected-year::after {
+    transform: rotateX(180deg);
+  }
+  .content__register-card .credit__card .expiration .expiration__date .year .select-box .options-container-year::-webkit-scrollbar {
+    width: 0.8rem;
+    background: #0d141f;
+    border-radius: 0 0.8rem 0.8rem 0;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .year .select-box .options-container-year::-webkit-scrollbar-thumb {
+    background: #525861;
+    border-radius: 0 0.8rem 0.8rem 0;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .year .select-box .option-year,
+.content__register-card .credit__card .expiration .expiration__date .year .select-box .selected-year {
+    padding: 1.7rem;
+    cursor: pointer;
+    text-align: center;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .year .select-box .option-year:hover {
+    background: #414b57;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .year .select-box label {
+    cursor: pointer;
+  }
+  .content__register-card .credit__card .expiration .expiration__date .year .select-box .option-year .radio {
+    display: none;
+  }
+  .content__register-card .credit__card .security-code {
+    padding-top: 2rem;
+  }
+  .content__register-card .credit__card .security-code .code-title {
+    padding-left: 1.7rem;
+    letter-spacing: 1px;
+  }
+  .content__register-card .credit__card .security-code .code-input {
+    margin-top: 1.3rem;
+    height: 5rem;
+    border-radius: 1.5rem;
+    font-size: 1.7rem;
+    margin: auto;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .content__register-card .credit__card .credit__card-btn {
+    padding-top: 5rem;
+  }
+  .content__register-card .credit__card .credit__card-btn .card-btn {
+    display: inline-block;
+    text-align: center;
+  }
+  .content__register-card .credit__card .credit__card-btn .card-btn .card-btn-cancel {
+    color: #000000;
+    width: 25rem;
+    border-radius: 2.7rem;
+    height: 3.5rem;
+    font-size: 1.6rem;
+    background-color: #efefef;
+    border: 1px solid #000000;
+    letter-spacing: 1px;
+    padding-top: 0;
+    line-height: 3.5rem;
+  }
+  .content__register-card .credit__card .credit__card-btn .card-btn .card-btn-register {
+    background-color: #000000;
+    color: #ffffff;
+    width: 25rem;
+    border-radius: 2.7rem;
+    height: 3.5rem;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    margin-top: 3rem;
+  }
+
+  .content__setting-register .credit__card-title {
+    font-size: 2.5rem;
+    padding-top: 10rem;
+  }
+  .content__setting-register .credit__card {
+    display: block;
+    padding-top: 0;
+  }
+  .content__setting-register .credit__card .post {
+    text-align: center;
+    padding-right: 0;
+    margin: 2rem;
+    padding: 0rem 0 0rem;
+  }
+  .content__setting-register .credit__card .post::before {
+    border: none;
+  }
+  .content__setting-register .credit__card .post .post-img {
+    padding-top: 0;
+  }
+  .content__setting-register .credit__card .post .post-img .post-malone {
+    width: 29.8rem;
+    height: 42.3rem;
+  }
+  .content__setting-register .credit__card .post .post-content {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #000000;
+    padding-top: 0rem;
+    max-width: 29.8rem;
+  }
+  .content__setting-register .credit__card .form__credit-card {
+    padding-left: 0;
+    margin-top: 0rem;
+    padding-top: 0;
+    display: flex;
+    margin: auto;
+    width: 33.3rem;
+  }
+  .content__setting-register .credit__card .form__credit-card form {
+    width: 33.3rem;
+  }
+  .content__setting-register .credit__card .form__credit-card form .card-number .card__number-title {
+    padding-left: 1.7rem;
+  }
+  .content__setting-register .credit__card .form__credit-card form .card-number .card__number-input {
+    margin-top: 1rem;
+    height: 5rem;
+    border-radius: 1.5rem;
+    font-size: 1.9rem;
+    width: 33.3rem;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration {
+    padding-top: 2rem;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .date-title {
+    padding-left: 1.7rem;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date {
+    text-align: center;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .month {
+    padding-right: 3.5rem;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .month .select-box {
+    display: flex;
+    width: 15rem;
+    flex-direction: column;
+    font-size: 1.9rem;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .month .select-box .selected {
+    background: #ffffff;
+    border-radius: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #000000;
+    position: relative;
+    order: 0;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .month .select-box .selected::after {
+    content: "";
+    background: url("../image/dropdown.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 0.8rem;
+    width: 1.6rem;
+    right: 2rem;
+    top: 2.3rem;
+    transition: all 0.4s;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .month .select-box .options-container {
+    background-color: #ffffff;
+    color: #000000;
+    max-height: 0;
+    width: 15rem;
+    opacity: 0;
+    transition: all 0.4s;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    order: 1;
+    position: absolute;
+    top: 100rem;
+    box-shadow: 1px 0px 4px 1px rgba(0, 0, 0, 0.5);
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .month .select-box .options-container.active {
+    max-height: 20rem;
+    opacity: 1;
+    overflow-y: scroll;
+    font-size: 1.4rem;
+    z-index: 1;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .month .select-box .options-container.active + .selected::after {
+    transform: rotateX(180deg);
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .month .select-box .options-container::-webkit-scrollbar {
+    width: 0.8rem;
+    background: #0d141f;
+    border-radius: 0 0.8rem 0.8rem 0;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .month .select-box .options-container::-webkit-scrollbar-thumb {
+    background: #525861;
+    border-radius: 0 0.8rem 0.8rem 0;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .month .select-box .option,
+.content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .month .select-box .selected {
+    padding: 1.2rem;
+    cursor: pointer;
+    text-align: center;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .month .select-box .option:hover {
+    background: #414b57;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .month .select-box label {
+    cursor: pointer;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .month .select-box .option .radio {
+    display: none;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .year .select-box {
+    display: flex;
+    width: 15rem;
+    flex-direction: column;
+    font-size: 1.9rem;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .year .select-box .selected-year {
+    background: #ffffff;
+    border-radius: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #000000;
+    position: relative;
+    order: 0;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .year .select-box .selected-year::after {
+    content: "";
+    background: url("../image/dropdown.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 0.8rem;
+    width: 1.6rem;
+    right: 2rem;
+    top: 2.3rem;
+    transition: all 0.4s;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .year .select-box .options-container-year {
+    background-color: #ffffff;
+    color: #000000;
+    max-height: 0;
+    width: 15rem;
+    opacity: 0;
+    transition: all 0.4s;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    order: 1;
+    position: absolute;
+    top: 100rem;
+    box-shadow: 1px 0px 4px 1px rgba(0, 0, 0, 0.5);
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .year .select-box .options-container-year.active {
+    max-height: 20rem;
+    opacity: 1;
+    overflow-y: scroll;
+    font-size: 1.4rem;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .year .select-box .options-container-year.active + .selected-year::after {
+    transform: rotateX(180deg);
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .year .select-box .options-container-year::-webkit-scrollbar {
+    width: 0.8rem;
+    background: #0d141f;
+    border-radius: 0 0.8rem 0.8rem 0;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .year .select-box .options-container-year::-webkit-scrollbar-thumb {
+    background: #525861;
+    border-radius: 0 0.8rem 0.8rem 0;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .year .select-box .option-year,
+.content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .year .select-box .selected-year {
+    padding: 1.2rem;
+    cursor: pointer;
+    text-align: center;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .year .select-box .option-year:hover {
+    background: #414b57;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .year .select-box label {
+    cursor: pointer;
+  }
+  .content__setting-register .credit__card .form__credit-card form .expiration .expiration__date .year .select-box .option-year .radio {
+    display: none;
+  }
+  .content__setting-register .credit__card .form__credit-card form .security-code {
+    padding-top: 1rem;
+  }
+  .content__setting-register .credit__card .form__credit-card form .security-code .code-title {
+    padding-left: 1.7rem;
+  }
+  .content__setting-register .credit__card .form__credit-card form .security-code .code-input {
+    margin-top: 1.3rem;
+    height: 5rem;
+    border-radius: 1.5rem;
+    font-size: 1.9rem;
+    width: 33.3rem;
+  }
+  .content__setting-register .credit__card .form__credit-card form .credit__card-btn {
+    padding-top: 3rem;
+  }
+  .content__setting-register .credit__card .form__credit-card form .credit__card-btn .card-btn {
+    display: block;
+    text-align: center;
+  }
+  .content__setting-register .credit__card .form__credit-card form .credit__card-btn .card-btn .card-btn-cancel {
+    color: #000000;
+    width: 25rem;
+    border-radius: 2.7rem;
+    height: 3.5rem;
+    font-size: 1.6rem;
+    background-color: #efefef;
+    border: 1px solid #000000;
+    line-height: 3.5rem;
+    margin-right: 0;
+  }
+  .content__setting-register .credit__card .form__credit-card form .credit__card-btn .card-btn .card-btn-register {
+    margin-top: 3rem;
+    background-color: #000000;
+    color: #ffffff;
+    width: 25rem;
+    border-radius: 2.7rem;
+    height: 3.5rem;
+    font-size: 1.6rem;
+    margin-right: 0rem;
+  }
+
+  .content__subscription-list {
+    padding: 0rem;
+    padding-bottom: 8rem;
+  }
+  .content__subscription-list .subscription-title {
+    font-size: 2.5rem;
+    padding-top: 7rem;
+  }
+  .content__subscription-list .subscription__registered-credit {
+    margin-top: 5rem;
+    width: 33.3rem;
+    height: 11rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .content__subscription-list .subscription__registered-credit .registered-credit {
+    font-size: 1.5rem;
+    padding-left: 0rem;
+    text-align: center;
+    padding-top: 1rem;
+  }
+  .content__subscription-list .subscription__registered-credit .registered-credit span {
+    display: block;
+  }
+  .content__subscription-list .subscription__registered-credit .credit__card-number .credit-card {
+    width: 2.4rem;
+    height: 1.9rem;
+    margin-left: 0;
+    margin-right: 1rem;
+  }
+  .content__subscription-list .subscription__registered-credit .credit__card-number .card-number {
+    text-align: center;
+    margin-left: 0;
+    font-size: 1.5rem;
+    padding-right: 0;
+  }
+  .content__subscription-list .subscription__registered-credit .btn-setting {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-left: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 0;
+  }
+  .content__subscription-list .subscription__list {
+    max-width: 134.4rem;
+    margin: 5rem auto;
+    padding: 0 1rem;
+  }
+  .content__subscription-list .subscription__list .subscription__list-title {
+    display: block;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+  }
+  .content__subscription-list .subscription__list .subscription__list-title .title-list {
+    display: none;
+  }
+  .content__subscription-list .subscription__list .subscription__list-title .title-cancel {
+    width: 25rem;
+    margin: auto;
+    height: 3.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .content__subscription-list .subscription__list .subscription__list-table {
+    line-height: 5rem;
+    padding: 0 2rem;
+  }
+  .content__subscription-list .subscription__list .subscription__list-table table {
+    width: 100%;
+    min-width: 100rem;
+  }
+  .content__subscription-list .subscription__list .subscription__list-table table tr td {
+    padding-left: 1rem;
+  }
+  .content__subscription-list .subscription__list .subscription__list-table table tr td .list-table-card {
+    display: flex;
+  }
+  .content__subscription-list .subscription__list .subscription__list-table table tr td .list-table-card .card-number {
+    padding-left: 3.5rem;
+  }
+
+  .content__change-card {
+    padding-bottom: 10rem;
+  }
+  .content__change-card .credit__card-title {
+    font-size: 2.5rem;
+    padding-top: 10rem;
+  }
+  .content__change-card .subscription__registered-credit {
+    width: 33.3rem;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    flex-direction: column;
+  }
+  .content__change-card .subscription__registered-credit .registered-credit {
+    font-size: 1.7rem;
+    padding-left: 0rem;
+  }
+  .content__change-card .subscription__registered-credit .registered-credit span {
+    display: none;
+  }
+  .content__change-card .subscription__registered-credit .credit__card-number {
+    display: flex;
+    padding-top: 1rem;
+  }
+  .content__change-card .subscription__registered-credit .credit__card-number .credit-card {
+    width: 2.4rem;
+    height: 1.9rem;
+    margin-left: 0rem;
+    margin-right: 1rem;
+  }
+  .content__change-card .subscription__registered-credit .credit__card-number .card-number {
+    margin-left: 0rem;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+    color: #000000;
+  }
+  .content__change-card .credit__card .card-number {
+    padding-top: 5rem;
+    width: 33.3rem;
+    margin: auto;
+  }
+  .content__change-card .credit__card .card-number .card__number-title {
+    padding-left: 1.7rem;
+    font-size: 1.7rem;
+  }
+  .content__change-card .credit__card .card-number .card__number-input {
+    margin-top: 1rem;
+    height: 5rem;
+    border-radius: 1.5rem;
+    font-size: 1.7rem;
+    padding: 0 4.3rem;
+    width: 33.3rem;
+  }
+  .content__change-card .credit__card .expiration {
+    padding-top: 3.4rem;
+  }
+  .content__change-card .credit__card .expiration .date-title {
+    padding-left: 1.7rem;
+    font-size: 1.9rem;
+  }
+  .content__change-card .credit__card .expiration .expiration__date {
+    padding-top: 1rem;
+    justify-content: space-between;
+  }
+  .content__change-card .credit__card .expiration .expiration__date a {
+    text-decoration: none;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .month {
+    padding-right: 0rem;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .month .select-box {
+    width: 15rem;
+    flex-direction: column;
+    font-size: 1.7rem;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .month .select-box .selected {
+    background: #ffffff;
+    border-radius: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #000000;
+    position: relative;
+    order: 0;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .month .select-box .selected::after {
+    content: "";
+    background: url("../image/dropdown.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 0.8rem;
+    width: 1.6rem;
+    right: 2rem;
+    top: 2.3rem;
+    transition: all 0.4s;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .month .select-box .options-container {
+    background-color: #ffffff;
+    color: #000000;
+    max-height: 0;
+    width: 15rem;
+    opacity: 0;
+    transition: all 0.4s;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    order: 1;
+    position: absolute;
+    top: 56.5rem;
+    box-shadow: 1px 0px 4px 1px rgba(0, 0, 0, 0.5);
+  }
+  .content__change-card .credit__card .expiration .expiration__date .month .select-box .options-container.active {
+    max-height: 20rem;
+    opacity: 1;
+    overflow-y: scroll;
+    font-size: 1.4rem;
+    z-index: 1;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .month .select-box .options-container.active + .selected::after {
+    transform: rotateX(180deg);
+  }
+  .content__change-card .credit__card .expiration .expiration__date .month .select-box .options-container::-webkit-scrollbar {
+    width: 0.8rem;
+    background: #0d141f;
+    border-radius: 0 0.8rem 0.8rem 0;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .month .select-box .options-container::-webkit-scrollbar-thumb {
+    background: #525861;
+    border-radius: 0 0.8rem 0.8rem 0;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .month .select-box .option,
+.content__change-card .credit__card .expiration .expiration__date .month .select-box .selected {
+    padding: 1.7rem;
+    cursor: pointer;
+    text-align: center;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .month .select-box .option:hover {
+    background: #414b57;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .month .select-box label {
+    cursor: pointer;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .month .select-box .option .radio {
+    display: none;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .year .select-box {
+    width: 15rem;
+    flex-direction: column;
+    font-size: 1.7rem;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .year .select-box .selected-year {
+    background: #ffffff;
+    border-radius: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #000000;
+    position: relative;
+    order: 0;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .year .select-box .selected-year::after {
+    content: "";
+    background: url("../image/dropdown.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 0.8rem;
+    width: 1.6rem;
+    right: 2rem;
+    top: 2.3rem;
+    transition: all 0.4s;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .year .select-box .options-container-year {
+    background-color: #ffffff;
+    color: #000000;
+    max-height: 0;
+    width: 15rem;
+    opacity: 0;
+    transition: all 0.4s;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    order: 1;
+    position: absolute;
+    top: 56.5rem;
+    box-shadow: 1px 0px 4px 1px rgba(0, 0, 0, 0.5);
+  }
+  .content__change-card .credit__card .expiration .expiration__date .year .select-box .options-container-year.active {
+    max-height: 20rem;
+    opacity: 1;
+    overflow-y: scroll;
+    font-size: 1.4rem;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .year .select-box .options-container-year.active + .selected-year::after {
+    transform: rotateX(180deg);
+  }
+  .content__change-card .credit__card .expiration .expiration__date .year .select-box .options-container-year::-webkit-scrollbar {
+    width: 0.8rem;
+    background: #0d141f;
+    border-radius: 0 0.8rem 0.8rem 0;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .year .select-box .options-container-year::-webkit-scrollbar-thumb {
+    background: #525861;
+    border-radius: 0 0.8rem 0.8rem 0;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .year .select-box .option-year,
+.content__change-card .credit__card .expiration .expiration__date .year .select-box .selected-year {
+    padding: 1.8rem;
+    cursor: pointer;
+    text-align: center;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .year .select-box .option-year:hover {
+    background: #414b57;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .year .select-box label {
+    cursor: pointer;
+  }
+  .content__change-card .credit__card .expiration .expiration__date .year .select-box .option-year .radio {
+    display: none;
+  }
+  .content__change-card .credit__card .security-code {
+    padding-top: 1rem;
+  }
+  .content__change-card .credit__card .security-code .code-title {
+    padding-left: 1.7rem;
+    font-size: 1.9rem;
+  }
+  .content__change-card .credit__card .security-code .code-input {
+    margin-top: 1.3rem;
+    width: 33.3rem;
+    height: 5rem;
+    border-radius: 1.5rem;
+    font-size: 1.9rem;
+    padding: 0 4.3rem;
+  }
+  .content__change-card .credit__card .credit__card-btn {
+    margin: auto;
+    padding-top: 5rem;
+    width: 33.3rem;
+    text-align: center;
+  }
+  .content__change-card .credit__card .credit__card-btn .card-btn {
+    display: block;
+  }
+  .content__change-card .credit__card .credit__card-btn .card-btn .card-btn-cancel {
+    color: #000000;
+    width: 25rem;
+    border-radius: 2.7rem;
+    height: 3.5rem;
+    font-size: 1.6rem;
+    background-color: #efefef;
+    border: 1px solid #000000;
+    letter-spacing: 1px;
+    padding-top: 0;
+    line-height: 3.5rem;
+  }
+  .content__change-card .credit__card .credit__card-btn .card-btn .card-btn-register {
+    background-color: #000000;
+    color: #ffffff;
+    width: 25rem;
+    border-radius: 2.7rem;
+    height: 3.5rem;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    margin-top: 2rem;
+  }
+
+  .content__unregister .unregister-title {
+    font-size: 2.5rem;
+    padding-top: 10rem;
+  }
+  .content__unregister .unregister-description {
+    font-size: 1.5rem;
+    width: 33.3rem;
+    padding-top: 5rem;
+  }
+  .content__unregister .unregister-date {
+    font-size: 1.5rem;
+    padding-top: 3rem;
+  }
+  .content__unregister .credit__card-btn {
+    padding-top: 5rem;
+  }
+  .content__unregister .credit__card-btn .card-btn {
+    display: block;
+    text-align: center;
+  }
+  .content__unregister .credit__card-btn .card-btn .card-btn-cancel {
+    width: 25rem;
+    height: 3.5rem;
+    margin-right: 0rem;
+  }
+  .content__unregister .credit__card-btn .card-btn .card-btn-register {
+    margin-top: 3rem;
+    width: 25rem;
+    height: 3.5rem;
+  }
+
+  .content__unregister-finish .unregister-title {
+    font-size: 2.5rem;
+    padding-top: 10rem;
+  }
+  .content__unregister-finish .unregister-description {
+    font-size: 1.7rem;
+    padding-top: 5rem;
+  }
+  .content__unregister-finish .top-page-btn {
+    margin-top: 5rem;
+    width: 25rem;
+    height: 3.5rem;
+    margin-right: 0rem;
+  }
+
+  .content__contact-faq .question-title {
+    padding-top: 10rem;
+    font-size: 2.5rem;
+  }
+  .content__contact-faq .contact__faq .faq {
+    padding-top: 5rem;
+    text-align: center;
+  }
+  .content__contact-faq .contact__faq .question {
+    padding-top: 2rem;
+    display: flex;
+  }
+  .content__contact-faq .contact__faq .question .q {
+    margin-left: 0rem;
+  }
+  .content__contact-faq .contact__faq .answer {
+    padding-top: 2rem;
+    display: flex;
+  }
+  .content__contact-faq .contact__faq .answer .a {
+    margin-left: 0rem;
+  }
+  .content__contact-faq .contact__faq hr {
+    color: #707070;
+    margin-top: 2rem;
+  }
+  .content__contact-faq .contact-btn-sub {
+    padding-bottom: 5rem;
+  }
+  .content__contact-faq .contact-btn-sub .contact-btn {
+    margin-top: 5rem;
+    width: 25rem;
+    height: 3.5rem;
+  }
+
+  .content__contact {
+    font-size: 1.7rem;
+  }
+  .content__contact .credit__card-title {
+    font-size: 2.5rem;
+    padding-top: 10rem;
+  }
+  .content__contact .contact {
+    padding-top: 5rem;
+  }
+  .content__contact .contact .contact-name {
+    padding-top: 0rem;
+  }
+  .content__contact .contact .contact-name .name-top .mandatory {
+    padding: 0.5rem 1.6rem;
+  }
+  .content__contact .contact .contact-name .name-input {
+    width: 33.3rem;
+    height: 5rem;
+    font-size: 1.7rem;
+  }
+  .content__contact .contact .contact-email {
+    padding-top: 2rem;
+  }
+  .content__contact .contact .contact-email .email-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .content__contact .contact .contact-email .email-top .email {
+    padding-left: 1.7rem;
+  }
+  .content__contact .contact .contact-email .email-top .mandatory {
+    padding: 0.5rem 1.6rem;
+  }
+  .content__contact .contact .contact-email .email-input {
+    width: 33.3rem;
+    height: 5rem;
+    font-size: 1.7rem;
+  }
+  .content__contact .contact .contact-inquiry {
+    padding-top: 2rem;
+  }
+  .content__contact .contact .contact-inquiry .inquiry-top .mandatory {
+    padding: 0.5rem 1.6rem;
+  }
+  .content__contact .contact .contact-inquiry .inquiry-input {
+    width: 33.3rem;
+    height: 5rem;
+    font-size: 1.7rem;
+  }
+  .content__contact .contact .contact-content {
+    padding-top: 2rem;
+  }
+  .content__contact .contact .contact-content .content-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .content__contact .contact .contact-content .content-top .content {
+    padding-left: 1.7rem;
+  }
+  .content__contact .contact .contact-content .content-top .mandatory {
+    padding: 0.5rem 1.6rem;
+    margin-right: 1.2rem;
+  }
+  .content__contact .contact .contact-content .content-input {
+    margin-top: 1.3rem;
+    border-radius: 1.5rem;
+    font-size: 1.7rem;
+    padding: 0rem 0rem;
+  }
+  .content__contact .contact .check-contact {
+    padding-top: 2rem;
+    padding-left: 3rem;
+    display: flex;
+    align-items: center;
+  }
+  .content__contact .contact .check-contact .form-check-input {
+    width: 2rem;
+    height: 2rem;
+  }
+  .content__contact .contact .check-contact .form-check-label {
+    font-size: 1.4rem;
+    padding-left: 2rem;
+    position: relative;
+  }
+  .content__contact .contact .check-contact .form-check-label::before {
+    content: "";
+    width: 9rem;
+    bottom: -1rem;
+    position: absolute;
+    border: 1px solid #707070;
+  }
+  .content__contact .contact .contact-btn-sub {
+    text-align: center;
+  }
+  .content__contact .contact .contact-btn-sub .contact-btn {
+    margin: auto;
+    margin-top: 5rem;
+    width: 25rem;
+    height: 3.5rem;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  html {
+    font-size: calc(40%) !important;
+  }
+  html .content__sns-registration .btn-signup {
+    font-size: 1.6rem;
+  }
+  html .content__sns-registration .btn-login {
+    font-size: 1.6rem;
+  }
+  html .content__sns-registration .content__login-or {
+    font-size: 1.6rem;
+  }
+  html .content__sns-registration .content__login-description {
+    font-size: 1.8rem;
+    width: 30rem;
+    margin: auto;
+  }
+  html .content__sns-registration .content__login-icon {
+    padding-top: 3rem;
+  }
+  html .content__sns-registration .content__login-icon .icon {
+    width: 5rem;
+    height: 5rem;
+    margin: 0.7rem;
+  }
+  html .content__signup {
+    height: 76rem;
+  }
+  html .content__signup .content__signup-main .content__signup-title {
+    padding-top: 3.5rem;
+    font-size: 2.5rem;
+    padding-bottom: 1.3rem;
+  }
+  html .content__signup .content__signup-main .signup-input {
+    font-size: 2rem;
+  }
+  html .content__signup .content__signup-main .content__signup-gender {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+  }
+  html .content__signup .content__signup-main .content__signup-gender .gender-woman {
+    font-size: 1.7rem;
+  }
+  html .content__signup .content__signup-main .content__signup-gender .gender-men {
+    font-size: 1.7rem;
+  }
+  html .content__signup .content__signup-main .content__signup-validate-error {
+    font-size: 1.6rem;
+  }
+  html .content__signup .content__signup-main .password-signup {
+    padding-top: 1.4rem;
+  }
+  html .content__signup .content__signup-main .password-signup .password {
+    font-size: 1.4rem;
+  }
+  html .content__signup .content__signup-main .password-signup-confirmation {
+    padding-top: 1.4rem;
+  }
+  html .content__signup .content__signup-main .password-signup-confirmation .password-confirmation {
+    font-size: 1.4rem;
+  }
+  html .content__signup .content__signup-main .form-check .form-check-label {
+    font-size: 1.5rem;
+  }
+  html .content__signup .content__signup-main .subscript-btn-next .btn-subscription-next {
+    background-color: #000000;
+    color: #fff;
+    width: 30.5rem;
+    border-radius: 50px;
+    height: 5.4rem;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+  }
+  html .content__send-email {
+    margin-top: calc(20rem);
+  }
+  html .content__send-email .send__email .send__email-title {
+    font-size: 3rem;
+  }
+  html .content__send-email .send__email .send__email-content {
+    padding: 3rem 6rem;
+    font-size: 1.7rem;
+    line-height: 2rem;
+  }
+  html .content__registration-completed {
+    margin-top: calc(20rem);
+  }
+  html .content__login {
+    margin-top: calc(10rem);
+  }
+  html .content__login .login-title {
+    font-size: 3rem;
+  }
+  html .content__login .form-login .input-email {
+    font-size: 1.7rem;
+  }
+  html .content__login .form-login .input-password {
+    font-size: 1.7rem;
+  }
+  html .content__login .form-login .forgot-password {
+    font-size: 1.7rem;
+  }
+  html .content__login .subscript-btn-next {
+    text-align: center;
+  }
+  html .content__login .subscript-btn-next .btn-subscription-next {
+    background-color: #000;
+    color: #fff;
+    width: 30.5rem;
+    border-radius: 50px;
+    height: 5.4rem;
+    font-size: 1.7rem;
+    margin-top: 6rem;
+  }
+  html .content__reset-password {
+    margin-top: 15rem;
+  }
+  html .content__reset-password .reset__password .reset__password-title {
+    font-size: 3rem;
+  }
+  html .content__reset-password .reset__password .form-reset .input-email {
+    font-size: 1.7rem;
+  }
+  html .content__reset-password .reset__password .subscript-btn-next .btn-subscription-next {
+    font-size: 1.7rem;
+  }
+  html .content__account .account__btn-logout .btn-logout {
+    font-size: 2rem;
+  }
+  html .content__email .contact-name .name {
+    font-size: 2rem;
+  }
+  html .content__subscription .subscription__registered-credit .card-number {
+    margin-left: 2rem;
+  }
+  html .content__subscription .subscription__registered-credit .btn-register {
+    font-size: 1.5rem;
+  }
+  html .content__subscription .subscription__list .purchase__history-title {
+    font-size: 2rem;
+  }
+  html .content__setting-account .subscription__list .purchase__history-title {
+    font-size: 2rem;
+  }
+  html .content__unregister .unregister-description {
+    font-size: 2rem;
+  }
+  html .content__unregister .unregister-date {
+    font-size: 1.7rem;
+  }
+  html .content__contact-faq .contact__faq .faq {
+    font-size: 3rem;
+  }
+  html .content__contact-faq .contact__faq .question .q {
+    font-size: 2rem;
+  }
+  html .content__contact-faq .contact__faq .question .content {
+    font-size: 2rem;
+  }
+  html .content__contact-faq .contact__faq .answer .a {
+    font-size: 2rem;
+  }
+  html .content__contact-faq .contact__faq .answer .content {
+    font-size: 2rem;
+  }
+  html .content__contact-faq .contact__faq hr {
+    color: #707070;
+    margin-top: 3.3rem;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  html {
+    font-size: calc(45%) !important;
+  }
+  html .content__sns-registration .btn-signup {
+    font-size: 1.6rem;
+  }
+  html .content__sns-registration .btn-login {
+    font-size: 1.6rem;
+  }
+  html .content__sns-registration .content__login-or {
+    font-size: 1.6rem;
+  }
+  html .content__sns-registration .content__login-description {
+    font-size: 1.8rem;
+    width: 30rem;
+    margin: auto;
+  }
+  html .content__sns-registration .content__login-icon {
+    padding-top: 3rem;
+  }
+  html .content__sns-registration .content__login-icon .icon {
+    width: 5rem;
+    height: 5rem;
+    margin: 0.7rem;
+  }
+  html .content__signup .content__signup-main .content__signup-title {
+    padding-top: 3.5rem;
+    font-size: 3rem;
+    padding-bottom: 1.3rem;
+  }
+  html .content__signup .content__signup-main .signup-input {
+    font-size: 2rem;
+  }
+  html .content__signup .content__signup-main .content__signup-gender {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+  }
+  html .content__signup .content__signup-main .content__signup-gender .gender-woman {
+    font-size: 1.7rem;
+  }
+  html .content__signup .content__signup-main .content__signup-gender .gender-men {
+    font-size: 1.7rem;
+  }
+  html .content__signup .content__signup-main .content__signup-validate-error {
+    font-size: 1.6rem;
+  }
+  html .content__signup .content__signup-main .password-signup {
+    padding-top: 1.4rem;
+  }
+  html .content__signup .content__signup-main .password-signup .password {
+    font-size: 1.4rem;
+  }
+  html .content__signup .content__signup-main .password-signup-confirmation {
+    padding-top: 1.4rem;
+  }
+  html .content__signup .content__signup-main .password-signup-confirmation .password-confirmation {
+    font-size: 1.4rem;
+  }
+  html .content__signup .content__signup-main .form-check .form-check-label {
+    font-size: 1.5rem;
+  }
+  html .content__signup .content__signup-main .subscript-btn-next .btn-subscription-next {
+    background-color: #000000;
+    color: #fff;
+    width: 30.5rem;
+    border-radius: 50px;
+    height: 5.4rem;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+  }
+  html .content__send-email {
+    margin-top: calc(20rem);
+  }
+  html .content__send-email .send__email .send__email-title {
+    font-size: 3rem;
+  }
+  html .content__send-email .send__email .send__email-content {
+    padding: 3rem 6rem;
+    font-size: 1.7rem;
+    line-height: 2rem;
+  }
+  html .content__registration-completed {
+    margin-top: calc(20rem);
+  }
+  html .content__login {
+    margin-top: calc(10rem);
+  }
+  html .content__login .login-title {
+    font-size: 3rem;
+  }
+  html .content__login .form-login .input-email {
+    font-size: 1.7rem;
+  }
+  html .content__login .form-login .input-password {
+    font-size: 1.7rem;
+  }
+  html .content__login .form-login .forgot-password {
+    font-size: 1.7rem;
+  }
+  html .content__login .subscript-btn-next {
+    text-align: center;
+  }
+  html .content__login .subscript-btn-next .btn-subscription-next {
+    background-color: #000;
+    color: #fff;
+    width: 30.5rem;
+    border-radius: 50px;
+    height: 5.4rem;
+    font-size: 1.7rem;
+    margin-top: 6rem;
+  }
+  html .content__reset-password {
+    margin-top: 15rem;
+  }
+  html .content__reset-password .reset__password .reset__password-title {
+    font-size: 3rem;
+  }
+  html .content__reset-password .reset__password .form-reset .input-email {
+    font-size: 1.7rem;
+  }
+  html .content__reset-password .reset__password .subscript-btn-next .btn-subscription-next {
+    font-size: 1.7rem;
+  }
+  html .content__account .account__btn-logout .btn-logout {
+    font-size: 2rem;
+  }
+  html .content__email .contact-name .name {
+    font-size: 2rem;
+  }
+  html .content__subscription .subscription__registered-credit .card-number {
+    margin-left: 2rem;
+  }
+  html .content__subscription .subscription__registered-credit .btn-register {
+    font-size: 1.5rem;
+  }
+  html .content__subscription .subscription__list .purchase__history-title {
+    font-size: 2rem;
+  }
+  html .content__setting-account .subscription__list .purchase__history-title {
+    font-size: 2rem;
+  }
+  html .content__unregister .unregister-description {
+    font-size: 2rem;
+  }
+  html .content__unregister .unregister-date {
+    font-size: 1.7rem;
+  }
+  html .content__contact-faq .contact__faq .faq {
+    font-size: 2rem;
+  }
+  html .content__contact-faq .contact__faq .question .q {
+    font-size: 2rem;
+  }
+  html .content__contact-faq .contact__faq .question .content {
+    font-size: 2rem;
+  }
+  html .content__contact-faq .contact__faq .answer .a {
+    font-size: 2rem;
+  }
+  html .content__contact-faq .contact__faq .answer .content {
+    font-size: 2rem;
+  }
+  html .content__contact-faq .contact__faq hr {
+    color: #707070;
+    margin-top: 3.3rem;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+  html {
+    font-size: 50% !important;
+  }
+  html .content__sns-registration .btn-signup {
+    font-size: 1.5rem;
+  }
+  html .content__sns-registration .btn-login {
+    font-size: 1.5rem;
+  }
+  html .content__sns-registration .content__login-or {
+    font-size: 1.6rem;
+  }
+  html .content__sns-registration .content__login-description {
+    font-size: 1.7rem;
+    width: 30rem;
+    margin: auto;
+  }
+  html .content__sns-registration .content__login-icon {
+    padding-top: 3rem;
+  }
+  html .content__sns-registration .content__login-icon .icon {
+    width: 5rem;
+    height: 5rem;
+    margin: 0.7rem;
+  }
+  html .content__signup {
+    margin-top: 15rem;
+  }
+  html .content__signup .content__signup-main .content__signup-title {
+    padding-top: 4rem;
+    font-size: 3rem;
+    padding-bottom: 1.3rem;
+  }
+  html .content__signup .content__signup-main .signup-input {
+    font-size: 2rem;
+  }
+  html .content__signup .content__signup-main .content__signup-gender {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+  }
+  html .content__signup .content__signup-main .content__signup-gender .gender-woman {
+    font-size: 1.7rem;
+  }
+  html .content__signup .content__signup-main .content__signup-gender .gender-men {
+    font-size: 1.7rem;
+  }
+  html .content__signup .content__signup-main .content__signup-validate-error {
+    font-size: 1.4rem;
+  }
+  html .content__signup .content__signup-main .email-signup {
+    padding-top: 1.4rem;
+  }
+  html .content__signup .content__signup-main .email-signup .email {
+    font-size: 1.4rem;
+  }
+  html .content__signup .content__signup-main .password-signup {
+    padding-top: 1.4rem;
+  }
+  html .content__signup .content__signup-main .password-signup .password {
+    font-size: 1.4rem;
+  }
+  html .content__signup .content__signup-main .password-signup-confirmation {
+    padding-top: 1.4rem;
+  }
+  html .content__signup .content__signup-main .password-signup-confirmation .password-confirmation {
+    font-size: 1.4rem;
+  }
+  html .content__signup .content__signup-main .form-check .form-check-label {
+    font-size: 1.5rem;
+  }
+  html .content__signup .content__signup-main .subscript-btn-next .btn-subscription-next {
+    background-color: #000000;
+    color: #fff;
+    width: 30.5rem;
+    border-radius: 50px;
+    height: 5.4rem;
+    font-size: 1.6rem;
+  }
+  html .content__send-email {
+    margin-top: calc(15rem);
+  }
+  html .content__send-email .send__email .send__email-title {
+    font-size: 3rem;
+  }
+  html .content__send-email .send__email .send__email-content {
+    padding: 3rem 6rem;
+    font-size: 1.7rem;
+    line-height: 2rem;
+  }
+  html .content__registration-completed {
+    margin-top: calc(20rem);
+  }
+  html .content__login {
+    margin-top: calc(20rem);
+  }
+  html .content__login .login-title {
+    font-size: 3rem;
+  }
+  html .content__login .form-login .input-email {
+    font-size: 1.7rem;
+  }
+  html .content__login .form-login .input-password {
+    font-size: 1.7rem;
+  }
+  html .content__login .form-login .forgot-password {
+    font-size: 1.7rem;
+  }
+  html .content__login .subscript-btn-next {
+    text-align: center;
+  }
+  html .content__login .subscript-btn-next .btn-subscription-next {
+    background-color: #000;
+    color: #fff;
+    width: 30.5rem;
+    border-radius: 50px;
+    height: 5.4rem;
+    font-size: 1.7rem;
+    margin-top: 6rem;
+  }
+  html .content__reset-password {
+    margin-top: 20rem;
+  }
+  html .content__reset-password .reset__password .reset__password-title {
+    font-size: 3rem;
+  }
+  html .content__reset-password .reset__password .form-reset .input-email {
+    font-size: 1.7rem;
+  }
+  html .content__reset-password .reset__password .subscript-btn-next .btn-subscription-next {
+    font-size: 1.7rem;
+  }
+  html .content__account .account__btn-logout .btn-logout {
+    font-size: 2rem;
+  }
+  html .content__email .contact-name .name {
+    font-size: 2rem;
+  }
+  html .content__subscription .subscription__registered-credit .btn-register {
+    font-size: 1.4rem;
+  }
+  html .content__subscription .subscription__list .purchase__history-title {
+    font-size: 2rem;
+  }
+  html .content__setting-account .subscription__registered-credit .btn-register {
+    font-size: 1.4rem;
+  }
+  html .content__setting-account .subscription__list .purchase__history-title {
+    font-size: 2rem;
+  }
+  html .content__unregister .unregister-description {
+    font-size: 2rem;
+  }
+  html .content__unregister .unregister-date {
+    font-size: 1.7rem;
+  }
+  html .content__contact-faq .contact__faq .faq {
+    font-size: 2rem;
+  }
+  html .content__contact-faq .contact__faq .question .q {
+    font-size: 2rem;
+  }
+  html .content__contact-faq .contact__faq .question .content {
+    font-size: 2rem;
+  }
+  html .content__contact-faq .contact__faq .answer .a {
+    font-size: 2rem;
+  }
+  html .content__contact-faq .contact__faq .answer .content {
+    font-size: 2rem;
+  }
+  html .content__contact-faq .contact__faq hr {
+    color: #707070;
+    margin-top: 3.3rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

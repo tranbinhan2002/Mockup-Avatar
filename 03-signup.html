@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up</title>
+  <link rel="stylesheet" href="./public/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./public/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="./public/css/reset.css">
+  <link rel="stylesheet" href="./public/css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-light justify-content-between">
+    <a class="navbar-brand"><img class="logo" src="./public/image/logo.svg" alt=""></a>
+    <div class="form-inline">
+      <div class="nav-login">
+        <a href="./03-signup.html"><span class="btn btn-signup">SIGN UP</span></a>
+        <span>/</span>
+        <a href="./02-sns-registration.html"> <span class="btn btn-login">LOGIN</span></a>
+      </div>
+    </div>
+  </nav>
+  <div class="content">
+    <div class="content__signup">
+      <i class="fas fa-times"></i>
+      <div class="content__signup-main">
+        <div class="content__signup-title">SIGN UP</div>
+        <form action="./04-send-email.html">
+          <input type="text" class="form-control signup-input" placeholder="BIRTH">
+          <div class="content__signup-gender">
+            <input type="radio" checked  id="women" hidden name="gender" class="btn gender-woman"/>
+            <label for="women" class="input-women">
+              <label for="women">WOMAN</label>
+            </label>
+            <input type="radio" id="men" hidden name="gender" class="btn gender-men"/>
+            <label for="men" class="input-men">
+              <label for="men">MEN</label>
+            </label>
+          </div>
+          <div class="content__signup-validate-error">
+            <li>- Please do not disclose the information you answered to a third party. </li>
+            <li>I’m sorry.</li>
+            <li>- Not the gender of the VIRBIES character, but the user’s
+              Please select a gender.</li>
+            <li>- Used to provide better VIRBIES service.</li>
+          </div>
+          <div class="form-group email-signup">
+            <label class="email">EMAIL</label>
+            <input type="email" class="form-control signup-input">
+          </div>
+          <div class="form-group password-signup">
+            <label class="password">PASSWORD</label>
+            <input type="password" class="form-control signup-input">
+          </div>
+          <div class="form-group password-signup-confirmation ">
+            <label class="password-confirmation">PASSWORD CONFIRMATION</label>
+            <input type="password" class=" form-control signup-input">
+          </div>
+          <div class="form-check">
+            <div class="round">
+              <input type="checkbox" id="checkbox" />
+              <label for="checkbox"></label>
+          </div>
+            <label class="check-title" for="checkbox">I agree to the <a href="">terms</a>  of use</label>
+          </div>
+          <div class="subscript-btn-next">
+           <button class="btn btn-subscription-next">NEXT</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
